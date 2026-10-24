@@ -35,7 +35,7 @@
 - [ChatGPT 和 API 的账单管理](https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform)
 - [续费付款失败排查](https://help.openai.com/en/articles/7242622-troubleshooting-chatgpt-plus-or-pro-renewal-payments)
 
-第三方文章中的“成功率”“封号风险”“保证到账”“官方兑换码”等说法均不直接沿用。发布实际操作步骤前，需核对本站真实交付流程并记录截图或测试结果。
+第三方文章中的“成功率”“封号风险”“保证到账”“官方兑换码”等说法均不直接沿用。本站服务的操作步骤与属性，以运营者提供的信息和 ProdClub 网站说明为准。
 
 ## 本轮新增的一手核对点
 
