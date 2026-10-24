@@ -94,7 +94,7 @@
 
 本仓库是订阅信息与教程项目，由服务推广方维护；与 OpenAI 没有合作、授权或隶属关系。请勿在 Issue 提交密码、验证码、Cookie、Session、API Key 或订单个人信息。
 
-延伸阅读：[方式选择网页](https://laoma528.github.io/GPTplusSub/) · [自助订阅清单](https://laoma528.github.io/GPTplusSub/self-subscribe.html) · [第三方服务判断](https://laoma528.github.io/GPTplusSub/third-party.html) · [资料索引](research/sources.md)。
+延伸阅读：[方式选择网页](https://laoma528.github.io/GPTplusSub/) · [自助订阅清单](https://laoma528.github.io/GPTplusSub/self-subscribe.html) · [第三方服务判断](https://laoma528.github.io/GPTplusSub/third-party.html) · [项目与服务说明](https://laoma528.github.io/GPTplusSub/about.html) · [资料索引](research/sources.md)。
 
 ### 本地预览与 Pages
 

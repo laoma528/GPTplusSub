@@ -6,7 +6,9 @@
     ? "third_party"
     : path.endsWith("self-subscribe.html")
       ? "self_subscribe"
-      : "home";
+      : path.endsWith("about.html")
+        ? "about"
+        : "home";
 
   window.dataLayer = window.dataLayer || [];
   window.gtag = function () { window.dataLayer.push(arguments); };
