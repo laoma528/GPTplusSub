@@ -2,7 +2,7 @@
 
 这个仓库用于整理 ChatGPT 订阅方式、支付问题和第三方充值服务的使用说明。主要读者是想开通订阅、但对付款条件和不同渠道不熟悉的中文用户。
 
-**项目状态：基础建设中。** [阅读指南首页](docs/index.html)已经写入仓库；GitHub Pages 尚未启用，正式服务网址与品牌名称待确认。
+**项目状态：基础版已上线。** [阅读在线指南](https://laoma528.github.io/GPTplusSub/)；正式服务网址与品牌名称待确认，第三方服务的下单入口暂未接入。
 
 ## 从哪里开始
 
@@ -23,7 +23,7 @@ ChatGPT 订阅与 OpenAI API 分别计费。第三方充值服务也不是 OpenA
 
 `docs/` 是不依赖构建工具的静态网站。在仓库根目录运行 `python -m http.server 8000 -d docs`，然后打开 `http://localhost:8000/`。
 
-上传到 `main` 后，仓库管理员可在 **Settings → Pages → Build and deployment** 选择 **Deploy from a branch**，分支 `main`、目录 `/docs`。预期地址为 `https://laoma528.github.io/GPTplusSub/`；只有 Pages 部署成功并访问验证后才算上线。
+GitHub Pages 已设为从 `main` 的 `/docs` 目录发布，地址为 <https://laoma528.github.io/GPTplusSub/>。首次构建成功，首页、两篇指南和样式文件均已返回 HTTP 200（2026-10-24）。后续更新推送到 `main` 后会重新构建。
 
 ## 边界
 
