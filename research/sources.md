@@ -45,3 +45,5 @@
 
 本轮的截图原词、搜索探索记录与文章提纲分别见 [关键词研究](keyword-research-2026-10-24.md)、[检索观察](serp-observations-2026-10-24.md)、[内容简报](../planning/seo-content-briefs.md)。
 
+关于 Avarce 仓库 2026-10-22 的 Apple 礼品卡更新，已另做[逐项事实核验](apple-gift-card-claim-check-2026-10-24.md)：$19.99 的美国区公开标价与 Oregon 无一般销售税可核实；“改 Oregon 一定不用绑卡”不能作为通用结论。
+
