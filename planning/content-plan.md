@@ -4,7 +4,7 @@
 
 仓库负责建立可信的公开说明和长期可检索的教程；实际订阅服务由 [ProdClub](https://prodclub.xyz/r/3F8974?src=GPTsub) 承接。主要读者是中国大陆地区没有方便可用的国际支付方式、或不愿花时间处理复杂订阅步骤的人。内容从用户问题出发，服务入口放在相应指南的自然位置。ProdClub 的业务事实以运营者提供的信息和其网站说明为准。第一阶段素材与页面简报见 [关键词研究](../research/keyword-research-2026-10-24.md) 和 [详细内容简报](seo-content-briefs.md)。
 
-运营者已确认的四项服务卖点及文案方向，见 [ProdClub 服务定位](service-positioning.md)。
+运营者已确认的服务卖点、约 5 元服务费的价格快照及文案方向，见 [ProdClub 服务定位](service-positioning.md)。
 
 ## 第一批内容
 

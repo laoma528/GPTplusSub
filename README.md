@@ -2,7 +2,7 @@
 
 这个仓库用于整理 ChatGPT 订阅方式、支付问题和第三方充值服务的使用说明。主要读者是中国大陆地区想开通订阅、但没有方便可用的国际支付方式，或希望省去复杂操作的用户。
 
-**项目状态：基础版已上线。** [阅读在线指南](https://laoma528.github.io/GPTplusSub/)。需要第三方订阅协助的读者，可前往 [ProdClub 订阅服务网站](https://prodclub.xyz/r/3F8974?src=GPTsub)：充值到自己的账号、最快 1 分钟到账、官方渠道充值，并支持支付宝付款。该站的帮助中心介绍了下单流程，购买前可阅读[服务与售后说明](docs/third-party.html)。
+**项目状态：基础版已上线。** [阅读在线指南](https://laoma528.github.io/GPTplusSub/)。需要第三方订阅协助的读者，可前往 [ProdClub 订阅服务网站](https://prodclub.xyz/r/3F8974?src=GPTsub)：充值到自己的账号、最快 1 分钟到账、官方渠道充值，并支持支付宝付款。按 2026 年 10 月 24 日的汇率与售价计算，服务费约 5 元，详见[价格快照](planning/service-positioning.md#价格快照与文案口径)。该站的帮助中心介绍了下单流程，购买前可阅读[服务与售后说明](docs/third-party.html)。
 
 ## 从哪里开始
 
