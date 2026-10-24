@@ -23,6 +23,8 @@ ChatGPT 订阅与 OpenAI API 分别计费。第三方充值服务也不是 OpenA
 
 `docs/` 是不依赖构建工具的静态网站。在仓库根目录运行 `python -m http.server 8000 -d docs`，然后打开 `http://localhost:8000/`。
 
+页面的色彩、字体层级、留白和组件排版参考 [DESIGN-openai.md](DESIGN-openai.md)。它是设计参考，页面文案与本站身份仍保持独立。
+
 GitHub Pages 已设为从 `main` 的 `/docs` 目录发布，地址为 <https://laoma528.github.io/GPTplusSub/>。首次构建成功，首页、两篇指南和样式文件均已返回 HTTP 200（2026-10-24）。后续更新推送到 `main` 后会重新构建。
 
 ## 边界
