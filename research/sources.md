@@ -1,6 +1,6 @@
 # 参考资料索引
 
-核对日期：2026-10-24。用户给出的 GitHub 链接重复一次，去重后共四个来源。这里记录可借鉴的栏目与选题，不保存或转载原文；页面内容和链接以后可能变化。
+核对日期：2026-10-24。两批用户提供的链接合并去重后，共八个独立来源。本表保存原始入口和可借鉴的选题结构，不抓取或转载原文；网页内容随时可能变化。它们是用户搜索“ChatGPT 充值”时看到的候选页，不代表固定搜索排名。
 
 | 来源 | 当前看到的重点 | 可借鉴的方向 | 使用时注意 |
 | --- | --- | --- | --- |
@@ -8,6 +8,20 @@
 | [youngyangyang04/gpt-daichong](https://github.com/youngyangyang04/gpt-daichong) | README 直接承载长篇比较和 FAQ，仓库另有文档与 Pages 结构 | GitHub README 作为搜索入口，文章再链接到网站 | 不复制文案、图片或商家背书；该仓库的第三方服务流程不能套用到本站 |
 | [小林 coding：Plus 充值教程](https://www.xiaolincoding.com/other/gpt.html) | 将银行卡、应用商店与第三方服务放在同一篇文章比较 | 让读者按自己的支付条件选择 | 文中有关“ChatGPT 设置里输入第三方卡密”的描述不能作为官方操作步骤；应以实际商家交付页与官方界面为准 |
 | [chatgpt-plus.github.io](https://chatgpt-plus.github.io/) | 首页按充值、虚拟卡、防封等话题组织，带归档和站点地图 | 为长期内容建设做分类和内链 | 用户提供的 [/chatgpt-daichong/](https://chatgpt-plus.github.io/chatgpt-daichong/) 直链本次未能读取；已核对该站首页，后续再复查具体页 |
+| [小林 coding：另一篇 Plus 充值指南](https://www.xiaolincoding.com/other/chatgptplus.html) | 同站的另一篇长文，按代充、虚拟卡、苹果礼品卡等方式分段，并附流程和常见问题 | 比较同一搜索意图下不同标题、章节与图文组织方式 | 与上面的 `/other/gpt.html` 是不同页面；文中第三方卡密入口及成功率说法不可直接照搬 |
+| [Google Sites：ChatGPT 订阅教程页](https://sites.google.com/view/chatgpt888/chatgpt-plus-dingyue?pli=1&authuser=0) | 原链接返回 HTTP 200，页面标题为“ChatGPT教程博客 - ChatGPT Plus/Pro订阅充值会员教程经验分享” | 后续精读其单页教程、站内导航及关键词布局 | 本轮未可靠提取正文；不据此引用具体步骤或效果承诺 |
+| [PayForChat](https://www.payforchat.com/) | 首页将套餐、支付方式、交付进度、售后、FAQ 和教程入口连在一起；另有[教程目录](https://www.payforchat.com/articles) | 研究“交易页 + 问题页 + 文章目录”的内链结构，以及价格、进度、退款信息放在哪里 | 页面上的到账时间、成功率、价格和套餐权益都是商家自述，不能作为本站承诺 |
+| [腾讯云开发者社区：Plus 国内充值指南](https://developer.cloud.tencent.com/article/2721088) | 长文依次回答“是什么、为什么支付难、有哪些方式、失败怎么办”，末尾有 FAQ 与避坑建议 | 将一个宽泛关键词拆成用户问题，再分配到专题页和文章内章节 | 为作者原创文章；不可转载其文字、图片，也不能未经核对沿用支付资格等时效信息 |
+
+本批重复入口：[youngyangyang04/gpt-daichong](https://github.com/youngyangyang04/gpt-daichong) 与 [chatgpt-plus.github.io 首页](https://chatgpt-plus.github.io/) 已在上表，未新增两条重复记录。
+
+## 从这些页面提炼的待写选题
+
+- **选择型**：官网网页、应用商店、第三方服务分别需要什么条件；Plus 与 Pro 如何按实际用途选择。
+- **问题型**：付款被拒、订阅未生效、已有订阅如何续费或升级、订单失败如何退款。
+- **信任型**：自己的账号和共享账号有何区别；第三方为什么可能索取 Session，读者应核对哪些权限与售后条款。
+
+这些是选题线索，不是待复制的标题或结论。写作时先核对 OpenAI 官方资料，再按 ProdClub 的真实交付流程补充本站操作步骤。
 
 ## 优先核对的一手资料
 
