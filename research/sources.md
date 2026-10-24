@@ -1,6 +1,6 @@
 # 参考资料索引
 
-核对日期：2026-10-24。两批用户提供的链接合并去重后，共八个独立来源。本表保存原始入口和可借鉴的选题结构，不抓取或转载原文；网页内容随时可能变化。它们是用户搜索“ChatGPT 充值”时看到的候选页，不代表固定搜索排名。
+核对日期：2026-10-24。用户提供的链接合并去重后，共十二个独立页面。本表保存原始入口和可借鉴的选题结构，不抓取或转载原文；网页内容随时可能变化。新补充的四页是用户搜索“chatgpt国内如何订阅”时在首页看到的链接，具体位次未记录，也不代表固定搜索排名。
 
 | 来源 | 当前看到的重点 | 可借鉴的方向 | 使用时注意 |
 | --- | --- | --- | --- |
@@ -12,6 +12,10 @@
 | [Google Sites：ChatGPT 订阅教程页](https://sites.google.com/view/chatgpt888/chatgpt-plus-dingyue?pli=1&authuser=0) | 原链接返回 HTTP 200，页面标题为“ChatGPT教程博客 - ChatGPT Plus/Pro订阅充值会员教程经验分享” | 后续精读其单页教程、站内导航及关键词布局 | 本轮未可靠提取正文；不据此引用具体步骤或效果承诺 |
 | [PayForChat](https://www.payforchat.com/) | 首页将套餐、支付方式、交付进度、售后、FAQ 和教程入口连在一起；另有[教程目录](https://www.payforchat.com/articles) | 研究“交易页 + 问题页 + 文章目录”的内链结构，以及价格、进度、退款信息放在哪里 | 页面上的到账时间、成功率、价格和套餐权益都是商家自述，不能作为本站承诺 |
 | [腾讯云开发者社区：Plus 国内充值指南](https://developer.cloud.tencent.com/article/2721088) | 长文依次回答“是什么、为什么支付难、有哪些方式、失败怎么办”，末尾有 FAQ 与避坑建议 | 将一个宽泛关键词拆成用户问题，再分配到专题页和文章内章节 | 为作者原创文章；不可转载其文字、图片，也不能未经核对沿用支付资格等时效信息 |
+| [Avarce：ChatGPT Plus 国内充值指南](https://github.com/Avarce/chatgpt-plus-china-guide) | GitHub README 以“30 秒按条件选路”开篇，再比较官网直付、虚拟卡、Apple 礼品卡、第三方服务；有操作截图、更新记录和 FAQ | 为主要决策页加入设备与支付条件分流；维护日期和变更记录 | 作者同时经营第三方服务；价格、成功经验和支付细节只作研究线索。文中已区分 Apple 礼品卡与 OpenAI 礼品卡 |
+| [PayForChat：Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026) | 先讲套餐是否适合，再讲官方流程、国内支付障碍、方式对比、服务流程、续费与发票 | “选不选 Plus”与“怎么付款”分层，服务介绍放在比较之后 | 站内人数、订单、时效与风险结论是商家自述；不得搬到本站。具体套餐和价格需查官方 |
+| [SealVPN：国内订阅 Plus 和 Codex](https://sealvpnapp.com/zh/blog/subscribe-chatgpt-plus-from-china) | 围绕 Apple 礼品卡路径写“前置条件—实际卡点—内购—订后使用”，另回答 Codex 常见疑问 | 做独立的苹果设备自助教程与错误排查，而非在总览页堆步骤 | “虚拟卡不能用”等绝对化判断与其下方融达文章相互冲突；具体建议必须有当期证据 |
+| [融达虚拟信用卡：Plus 国内开通指南](https://rdvcc.com/blog/post/chatgpt-plus-guide) | 很长的虚拟卡路线文章，从账号、卡、账单到失败、续费、发票和退订 | 提取用户关心的失败症状与账单问题，做简短排查入口 | 文中的卡段、成功率、IP、账号“养号”要求及账本数据均为商家口径；不写成 OpenAI 官方要求，也不提供规避限制的保证 |
 
 本批重复入口：[youngyangyang04/gpt-daichong](https://github.com/youngyangyang04/gpt-daichong) 与 [chatgpt-plus.github.io 首页](https://chatgpt-plus.github.io/) 已在上表，未新增两条重复记录。
 
@@ -32,4 +36,12 @@
 - [续费付款失败排查](https://help.openai.com/en/articles/7242622-troubleshooting-chatgpt-plus-or-pro-renewal-payments)
 
 第三方文章中的“成功率”“封号风险”“保证到账”“官方兑换码”等说法均不直接沿用。发布实际操作步骤前，需核对本站真实交付流程并记录截图或测试结果。
+
+## 本轮新增的一手核对点
+
+- [OpenAI 礼品卡说明](https://help.openai.com/zh-hans-cn/articles/20001491-buying-and-redeeming-openai-gift-cards)：2026-10-24 页面说明该卡目前只面向美国的 ChatGPT 账户。它在 ChatGPT 网页端兑换，**不是** Apple 礼品卡，也不是第三方商家的“卡密”。
+- [OpenAI 信用卡拒付排查](https://help.openai.com/zh-hans-cn/articles/7232916-why-was-my-credit-card-declined)：按银行、余额、账单信息、验证和地区逐项排查；不能把所有拒付归因于某个单一原因。
+- [OpenAI 历史发票](https://help.openai.com/zh-hans-cn/articles/12356340-finding-past-chatgpt-invoices)、[取消订阅](https://help.openai.com/zh-hans-cn/articles/7232927-how-do-i-cancel-my-subscription-for-chatgpt-plus-or-chatgpt-pro)：后续教程应分别说明官网与应用商店的管理入口。
+
+本轮的截图原词、搜索探索记录与文章提纲分别见 [关键词研究](keyword-research-2026-10-24.md)、[检索观察](serp-observations-2026-10-24.md)、[内容简报](../planning/seo-content-briefs.md)。
 
