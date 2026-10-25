@@ -13,7 +13,7 @@
 5. 从 App Store 打开**官方 ChatGPT App**，登录原 ChatGPT 账号。在对话页点“Get Plus / 升级”，或从菜单 → 你的姓名 → 设置 →“Upgrade / 升级套餐”。确认弹出的确是 **Apple App Store 购买框**；如果跳到 ChatGPT 网页结算，Apple 余额不能自动在那里付卡款。
 6. 核对套餐、周期、税后总额和下一次扣款日，再用 Face ID 或侧边键确认。买完到 ChatGPT 查看 Plus，同时到 iPhone“设置 → 你的姓名 → 订阅”查看 ChatGPT 的 Apple 订阅。若已扣费但仍是 Free，在 ChatGPT 设置 → Account / 账户 → Restore purchases / 恢复购买，别立刻重买。
 
-操作图文与错误处理：[支付宝买卡](https://gpt.528.im/alipay-apple-gift-card.html) · [Apple 兑换与 ChatGPT 内购](https://gpt.528.im/apple-gift-card.html) · [辨认不同礼品卡](https://gpt.528.im/gift-cards.html)。支付宝 Pockyt 的菜单顺序参考 [Avarce 实测教程](https://github.com/Avarce/chatgpt-plus-china-guide)；Apple 账户、兑换和内购规则以 [Apple](https://support.apple.com/en-us/118242) 与 [OpenAI](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription) 官方说明为准。
+操作图文与错误处理：[支付宝买卡](https://gpt.528.im/alipay-apple-gift-card.html) · [Apple 兑换与 ChatGPT 内购](https://gpt.528.im/apple-gift-card.html) · [辨认不同礼品卡](https://gpt.528.im/gift-cards.html)。支付宝 Pockyt 的菜单顺序参考 2026 年 10 月的公开实测，本站已把步骤写在买卡页；Apple 账户、兑换和内购规则以 [Apple](https://support.apple.com/en-us/118242) 与 [OpenAI](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription) 官方说明为准。
 
 ## 路线二：用海外银行卡在官网直付
 
