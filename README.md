@@ -1,10 +1,10 @@
 # ChatGPT Plus 充值教程：Apple 礼品卡、海外卡、虚拟卡与代充
 
-面向想给本人 ChatGPT 账号开通 Plus 的中文读者，这里把四条常见路线直接写成操作步骤。**先给结论：截至 2026 年 10 月 25 日，中国大陆不在 OpenAI 的 [ChatGPT 官方支持地区名单](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries)中；ChatGPT 官网也没有面向中国大陆的支付宝、微信直付入口。**换卡、买礼品卡或找第三方代付都不会改变 OpenAI 的地区规则。
+面向想给本人 ChatGPT 账号开通 Plus 的中文读者，这里把四条常见路线直接写成操作步骤。**先给结论**：截至 2026 年 10 月 25 日，中国大陆不在 OpenAI 的 [ChatGPT 官方支持地区名单](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries)中；ChatGPT 官网也没有面向中国大陆的支付宝、微信直付入口。换卡、买礼品卡或找第三方代付都不会改变 OpenAI 的地区规则。
 
 ## 路线一：支付宝买 Apple 礼品卡，在 iPhone 内购
 
-这条路线要有 iPhone 或 iPad、符合地区规则的 Apple 账户，以及可以使用官方 ChatGPT App 的地区。**Apple 账户负责付款，ChatGPT 账号负责使用。**美国礼品卡只能兑换到美国地区 Apple 账户。准备条件不符合时，先不要买卡。
+这条路线要有 iPhone 或 iPad、符合地区规则的 Apple 账户，以及可以使用官方 ChatGPT App 的地区。**Apple 账户负责付款，ChatGPT 账号负责使用**。美国礼品卡只能兑换到美国地区 Apple 账户。准备条件不符合时，先不要买卡。
 
 1. 在 iPhone 打开 **App Store → 右上角头像**，确认当前“媒体与购买项目”的 Apple 账户地区。需要改区时，Apple 官方路径为“设置 → 你的姓名 → 媒体与购买项目 → 查看账户 → 国家/地区”。改区前要处理余额、订阅和待办交易；Apple 可能要求新地区有效的付款方式。不要填虚构账单地址。
 2. 打开支付宝，尝试把首页城市切到美国城市，在 **Coupons / 优惠券 → 大牌礼卡 → Pockyt** 找“App Store & iTunes USA”。找不到菜单，可在支付宝顶部搜索框打开参考教程给出的 [Pockyt Shop 链接](https://ur.alipay.com/_5pdWVYNxT2sYKHaPeYkNZh)，再选美国地区的 App Store & iTunes 卡。这个商家入口可能改版；支付宝城市选择只用于找商品。
@@ -39,13 +39,13 @@
 
 ### 7 步完成一单
 
-1. **看清账号。**打开 [ChatGPT](https://chatgpt.com/) 登录以后要使用 Plus 的账号，点头像进入设置，确认目前显示 Free。ProdClub 当前 Plus 商品要求免费版，不能覆盖已有 Plus。已有付费订阅先看[续费、取消和退款教程](https://gpt.528.im/billing.html)。
-2. **打开指定入口。**进入 [ProdClub](https://prodclub.xyz/r/W3EF6W?src=GPTsub)，在“资源大厅”点“ChatGPT Plus”，确认商品为“1 个月 / 自有账号开通”。不要误选 Pro 或接码商品。
-3. **提交订单。**看清免费版账号条件、售后条款和实际应付金额；选“支付宝”，按页面提示填写能收邮件的邮箱，点击“提交订单”。订单链接会发到这个邮箱。
-4. **完成支付宝付款。**电脑用支付宝扫码，手机按收银台提示付款。付完回到原订单页等待自动确认；不要再下第二单，也不要在已付款后点“取消订单”。
-5. **复制 Session。**在同一个浏览器登录要升级的 ChatGPT 账号，新标签页打开 https://chatgpt.com/api/auth/session 。电脑按 Ctrl+A 全选再复制；手机长按“全选”后复制。回到 **ProdClub 原订单页**，把整段内容粘贴进 Session 输入框并提交。它是敏感登录凭据，别发给客服私聊、群聊或 GitHub。详细报错处理见 [Session 教程](https://gpt.528.im/session.html)。
-6. **等订单处理。**订单页会显示结果；商家说明通常一两分钟。提示安全验证就按订单页操作；提示重交 Session 或转人工，保留订单号，按[订单故障教程](https://gpt.528.im/order-help.html)继续，不要再付款。
-7. **核对本人账号。**刷新 ChatGPT，在原账号的设置中查看套餐是否显示 Plus。若订单显示完成而账号仍是 Free，先确认登录方式没有换错，再带订单号联系商家。
+1. **看清账号**。打开 [ChatGPT](https://chatgpt.com/) 登录以后要使用 Plus 的账号，点头像进入设置，确认目前显示 Free。ProdClub 当前 Plus 商品要求免费版，不能覆盖已有 Plus。已有付费订阅先看[续费、取消和退款教程](https://gpt.528.im/billing.html)。
+2. **打开指定入口**。进入 [ProdClub](https://prodclub.xyz/r/W3EF6W?src=GPTsub)，在“资源大厅”点“ChatGPT Plus”，确认商品为“1 个月 / 自有账号开通”。不要误选 Pro 或接码商品。
+3. **提交订单**。看清免费版账号条件、售后条款和实际应付金额；选“支付宝”，按页面提示填写能收邮件的邮箱，点击“提交订单”。订单链接会发到这个邮箱。
+4. **完成支付宝付款**。电脑用支付宝扫码，手机按收银台提示付款。付完回到原订单页等待自动确认；不要再下第二单，也不要在已付款后点“取消订单”。
+5. **复制 Session**。在同一个浏览器登录要升级的 ChatGPT 账号，新标签页打开 https://chatgpt.com/api/auth/session 。电脑按 Ctrl+A 全选再复制；手机长按“全选”后复制。回到 **ProdClub 原订单页**，把整段内容粘贴进 Session 输入框并提交。它是敏感登录凭据，别发给客服私聊、群聊或 GitHub。详细报错处理见 [Session 教程](https://gpt.528.im/session.html)。
+6. **等订单处理**。订单页会显示结果；商家说明通常一两分钟。提示安全验证就按订单页操作；提示重交 Session 或转人工，保留订单号，按[订单故障教程](https://gpt.528.im/order-help.html)继续，不要再付款。
+7. **核对本人账号**。刷新 ChatGPT，在原账号的设置中查看套餐是否显示 Plus。若订单显示完成而账号仍是 Free，先确认登录方式没有换错，再带订单号联系商家。
 
 ProdClub 是**独立第三方**，提供向本人账号开通的代充服务，不给新号、不共享，支持支付宝；其“官方渠道充值”描述的是商家采用的开通方式，不代表 ProdClub 是 OpenAI 官方或授权合作方。商家说明开通后删除用于开通的 Session。账号访问仍受 OpenAI 官方地区和政策限制。
 
@@ -63,13 +63,13 @@ ProdClub 是**独立第三方**，提供向本人账号开通的代充服务，�
 | 不确定代充、成品号和共享号区别 | [第三方服务与本人账号](https://gpt.528.im/third-party.html) |
 | 所在地和付款方式都符合 OpenAI 要求，想自己订 | [官网网页与官方 App 操作](https://gpt.528.im/self-subscribe.html) |
 
-**其他路线的独立教程：**[支付宝买 Apple 礼品卡](https://gpt.528.im/alipay-apple-gift-card.html) · [Apple 兑换与内购](https://gpt.528.im/apple-gift-card.html) · [海外银行卡直付](https://gpt.528.im/foreign-card.html) · [虚拟卡准备与支付](https://gpt.528.im/virtual-card.html)。
+**其他路线的独立教程**：[支付宝买 Apple 礼品卡](https://gpt.528.im/alipay-apple-gift-card.html) · [Apple 兑换与内购](https://gpt.528.im/apple-gift-card.html) · [海外银行卡直付](https://gpt.528.im/foreign-card.html) · [虚拟卡准备与支付](https://gpt.528.im/virtual-card.html)。
 
 ## 三个常见错误，先避开
 
-- **已有 Plus 还买这款 Plus。**当前商品不能覆盖已有 Plus，等原订阅结束、账号回到 Free 再下单。
-- **把 Session 发到聊天工具。**它相当于登录凭据，只应粘贴进对应订单的提交框。复制不完整时，回到 Session 页面重新全选，不要经微信转发。
-- **付完款立刻换平台再买。**付款确认、商家订单完成、ChatGPT 权益显示是不同状态。先查看原订单和原账号，再处理异常。
+- **已有 Plus 还买这款 Plus**。当前商品不能覆盖已有 Plus，等原订阅结束、账号回到 Free 再下单。
+- **把 Session 发到聊天工具**。它相当于登录凭据，只应粘贴进对应订单的提交框。复制不完整时，回到 Session 页面重新全选，不要经微信转发。
+- **付完款立刻换平台再买**。付款确认、商家订单完成、ChatGPT 权益显示是不同状态。先查看原订单和原账号，再处理异常。
 
 ## 来源与维护
 
