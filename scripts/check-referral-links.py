@@ -5,7 +5,7 @@ import re
 import sys
 
 root = Path(__file__).resolve().parents[1]
-allowed = "https://prodclub.xyz/r/W3EF6W?src=GPTsub"
+allowed = "https://prodclub.xyz/r/W3EF6W?src=gptsub"
 url_pattern = re.compile(r"(?:https?:)?//(?:www\.)?prodclub\.xyz[^\s\"'<>)]*", re.I)
 public_files = [root / "README.md", *sorted((root / "docs").glob("*.html"))]
 public_files += sorted((root / "docs" / "assets").glob("*.js"))

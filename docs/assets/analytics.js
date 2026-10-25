@@ -1,6 +1,6 @@
 (() => {
   const measurementId = "G-SY5YCTVBY0";
-  const serviceUrl = "https://prodclub.xyz/r/W3EF6W?src=GPTsub";
+  const serviceUrl = "https://prodclub.xyz/r/W3EF6W?src=gptsub";
   const path = window.location.pathname;
   const filename = path.split("/").pop() || "index.html";
   const pageId = filename === "index.html"

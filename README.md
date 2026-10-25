@@ -35,12 +35,12 @@
 
 ## 路线四：代充服务｜保留本人账号的完整教程
 
-如果你已经有能正常登录的 **ChatGPT 免费版账号**，打算了解 ProdClub 的本人账号代充服务，下面是可以照着操作的流程。本站固定入口为 [ProdClub 服务链接](https://prodclub.xyz/r/W3EF6W?src=GPTsub)。运营者确认：普通访客从这个入口看到的 Plus 1 个月价格是 **¥139**（2026 年 10 月 25 日）；付款前仍以你的订单页应付金额为准。
+如果你已经有能正常登录的 **ChatGPT 免费版账号**，打算了解 ProdClub 的本人账号代充服务，下面是可以照着操作的流程。本站固定入口为 [ProdClub 服务链接](https://prodclub.xyz/r/W3EF6W?src=gptsub)。运营者确认：普通访客从这个入口看到的 Plus 1 个月价格是 **¥139**（2026 年 10 月 25 日）；付款前仍以你的订单页应付金额为准。
 
 ### 7 步完成一单
 
 1. **看清账号**。打开 [ChatGPT](https://chatgpt.com/) 登录以后要使用 Plus 的账号，点头像进入设置，确认目前显示 Free。ProdClub 当前 Plus 商品要求免费版，不能覆盖已有 Plus。已有付费订阅先看[续费、取消和退款教程](https://gpt.528.im/billing.html)。
-2. **打开指定入口**。进入 [ProdClub](https://prodclub.xyz/r/W3EF6W?src=GPTsub)，在“资源大厅”点“ChatGPT Plus”，确认商品为“1 个月 / 自有账号开通”。不要误选 Pro 或接码商品。
+2. **打开指定入口**。进入 [ProdClub](https://prodclub.xyz/r/W3EF6W?src=gptsub)，在“资源大厅”点“ChatGPT Plus”，确认商品为“1 个月 / 自有账号开通”。不要误选 Pro 或接码商品。
 3. **提交订单**。看清免费版账号条件、售后条款和实际应付金额；选“支付宝”，按页面提示填写能收邮件的邮箱，点击“提交订单”。订单链接会发到这个邮箱。
 4. **完成支付宝付款**。电脑用支付宝扫码，手机按收银台提示付款。付完回到原订单页等待自动确认；不要再下第二单，也不要在已付款后点“取消订单”。
 5. **复制 Session**。在同一个浏览器登录要升级的 ChatGPT 账号，新标签页打开 https://chatgpt.com/api/auth/session 。电脑按 Ctrl+A 全选再复制；手机长按“全选”后复制。回到 **ProdClub 原订单页**，把整段内容粘贴进 Session 输入框并提交。它是敏感登录凭据，别发给客服私聊、群聊或 GitHub。详细报错处理见 [Session 教程](https://gpt.528.im/session.html)。
@@ -73,6 +73,6 @@ ProdClub 是**独立第三方**，提供向本人账号开通的代充服务，�
 
 ## 来源与维护
 
-地区和付款资格依据 [OpenAI 支持地区](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries)、[不支持地区说明](https://help.openai.com/en/articles/9131992-chatgpt-and-api-services-in-unsupported-countries-and-territories)及[网页支付方式](https://help.openai.com/en/articles/10421635-multicurrency-billing)。ProdClub 的开通、Session、订单和售后说明已经整理进本站的[下单教程](https://gpt.528.im/alipay-plus.html)、[Session 教程](https://gpt.528.im/session.html)和[订单售后教程](https://gpt.528.im/order-help.html)。需要进入代充网站时，只使用[本站指定入口](https://prodclub.xyz/r/W3EF6W?src=GPTsub)。最后核对：**2026 年 10 月 25 日**。
+地区和付款资格依据 [OpenAI 支持地区](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries)、[不支持地区说明](https://help.openai.com/en/articles/9131992-chatgpt-and-api-services-in-unsupported-countries-and-territories)及[网页支付方式](https://help.openai.com/en/articles/10421635-multicurrency-billing)。ProdClub 的开通、Session、订单和售后说明已经整理进本站的[下单教程](https://gpt.528.im/alipay-plus.html)、[Session 教程](https://gpt.528.im/session.html)和[订单售后教程](https://gpt.528.im/order-help.html)。需要进入代充网站时，只使用[本站指定入口](https://prodclub.xyz/r/W3EF6W?src=gptsub)。最后核对：**2026 年 10 月 25 日**。
 
 本仓库的 [GitHub Pages 教程站](https://gpt.528.im/) 从 main 分支的 docs 目录发布。请勿在 Issue 里提交密码、验证码、Cookie、Session、API Key 或订单个人信息。
