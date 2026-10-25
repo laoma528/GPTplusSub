@@ -29,7 +29,7 @@
 | 官方手机应用 | 官方 App 中出现可用的升级与结算选项 | 在 App 内确认流程；Apple、Google 或网页结算由各自平台管理 | 原 ChatGPT 账号、商店账号、结算方及重复扣费 |
 | 第三方代充 | 已看清交付方式、账号授权和售后规则 | 商家网站下单；在商家订单页和本人 ChatGPT 账号分别核验 | 权益进哪个账号、需提交什么、费用与失败处理 |
 
-有符合条件的官方自助付款方式，可以先走前两条路线。没有方便可用的方式，或希望有人协助操作，再按[第三方筛选清单](https://laoma528.github.io/GPTplusSub/third-party.html)比较交付和售后。**支持地区的要求仍要先核对**。
+有符合条件的官方自助付款方式，可以先走前两条路线。没有方便可用的方式，或希望有人协助操作，再按[第三方筛选清单](https://gpt.528.im/third-party.html)比较交付和售后。**支持地区的要求仍要先核对**。
 
 ## 方案一：在 ChatGPT 官网自行订阅
 
@@ -38,7 +38,7 @@
 3. 依照结算页填写受支持的付款信息；提交前再核对账号、套餐、周期和应付金额。[OpenAI 支付方式说明](https://help.openai.com/en/articles/10421635-multicurrency-billing)按地区列出可用选项，不能把某一地区的方式套用到所有账号。
 4. 支付完成后，回到**同一个 ChatGPT 账号**，在设置的套餐与 [Billing 页面](https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform)核对权益及账单记录。
 
-**付款被拒怎么办？**先看具体报错，核对卡片资料、账单地址、余额、银行验证以及所在地和发卡地区。若银行拒绝，联系发卡行；不要反复使用来源不明的卡或编造账单资料。可按 [OpenAI 的信用卡拒付排查](https://help.openai.com/en/articles/7232916-why-was-my-credit-card-declined)和[续费失败说明](https://help.openai.com/en/articles/7242622-troubleshooting-chatgpt-plus-or-pro-renewal-payments)继续检查。更细的准备清单见[在线自助订阅指南](https://laoma528.github.io/GPTplusSub/self-subscribe.html)。
+**付款被拒怎么办？**先看具体报错，核对卡片资料、账单地址、余额、银行验证以及所在地和发卡地区。若银行拒绝，联系发卡行；不要反复使用来源不明的卡或编造账单资料。可按 [OpenAI 的信用卡拒付排查](https://help.openai.com/en/articles/7232916-why-was-my-credit-card-declined)和[续费失败说明](https://help.openai.com/en/articles/7242622-troubleshooting-chatgpt-plus-or-pro-renewal-payments)继续检查。更细的准备清单见[在线自助订阅指南](https://gpt.528.im/self-subscribe.html)。
 
 ## 方案二：通过官方手机应用订阅
 
@@ -53,7 +53,7 @@
 
 ## 方案三：第三方代充与 ProdClub 服务
 
-“代充”可能是商家协助付款、交付第三方兑换凭证，或按订单取得必要的账号授权，彼此并非同一种服务。先问清楚**权益进哪个账号、要交什么资料、怎样算完成、失败后找谁处理**。第三方卡密也不能直接写成 ChatGPT 官网发行、可在官网兑换的 OpenAI 礼品卡。完整筛选项见[第三方服务判断指南](https://laoma528.github.io/GPTplusSub/third-party.html)。
+“代充”可能是商家协助付款、交付第三方兑换凭证，或按订单取得必要的账号授权，彼此并非同一种服务。先问清楚**权益进哪个账号、要交什么资料、怎样算完成、失败后找谁处理**。第三方卡密也不能直接写成 ChatGPT 官网发行、可在官网兑换的 OpenAI 礼品卡。完整筛选项见[第三方服务判断指南](https://gpt.528.im/third-party.html)。
 
 对照商家页面时，重点看四件事：**本人账号**能否保留、**支付与资料提交**是否写清、**订单状态**在哪里查、**售后条件**有没有具体页面。只看“正规”“秒到”之类口号，不能替代这四项信息。ProdClub 对应的操作和核验入口如下。
 
@@ -94,8 +94,8 @@
 
 本仓库是订阅信息与教程项目，由服务推广方维护；与 OpenAI 没有合作、授权或隶属关系。请勿在 Issue 提交密码、验证码、Cookie、Session、API Key 或订单个人信息。
 
-延伸阅读：[方式选择网页](https://laoma528.github.io/GPTplusSub/) · [自助订阅清单](https://laoma528.github.io/GPTplusSub/self-subscribe.html) · [第三方服务判断](https://laoma528.github.io/GPTplusSub/third-party.html) · [项目与服务说明](https://laoma528.github.io/GPTplusSub/about.html) · [资料索引](research/sources.md)。
+延伸阅读：[方式选择网页](https://gpt.528.im/) · [自助订阅清单](https://gpt.528.im/self-subscribe.html) · [第三方服务判断](https://gpt.528.im/third-party.html) · [项目与服务说明](https://gpt.528.im/about.html) · [资料索引](research/sources.md)。
 
 ### 本地预览与 Pages
 
-`docs/` 是静态文档站。在仓库根目录运行 `python -m http.server 8000 -d docs`，打开 `http://localhost:8000/` 预览。GitHub Pages 使用 `main` 分支的 `/docs`，公开地址为 <https://laoma528.github.io/GPTplusSub/>；本 README 由 GitHub 仓库页面直接渲染。
+`docs/` 是静态文档站。在仓库根目录运行 `python -m http.server 8000 -d docs`，打开 `http://localhost:8000/` 预览。GitHub Pages 使用 `main` 分支的 `/docs`，公开地址为 <https://gpt.528.im/>；本 README 由 GitHub 仓库页面直接渲染。

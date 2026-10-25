@@ -17,7 +17,7 @@ from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[2]
-SITE_BASE = 'https://laoma528.github.io/GPTplusSub/'
+SITE_BASE = 'https://gpt.528.im/'
 KEY_FILE = ROOT / 'docs' / '1e153e193846b19494b7348d3d587d4e.txt'
 KEY_URL = SITE_BASE + KEY_FILE.name
 ENDPOINT = 'https://api.indexnow.org/indexnow'
@@ -25,10 +25,10 @@ ENDPOINT = 'https://api.indexnow.org/indexnow'
 
 def canonical_url(raw: str) -> str:
     parsed = urlparse(raw)
-    if parsed.scheme != 'https' or parsed.netloc != 'laoma528.github.io':
-        raise ValueError(f'URL is outside the Pages host: {raw}')
-    if not parsed.path.startswith('/GPTplusSub/') or parsed.query or parsed.fragment:
-        raise ValueError(f'URL is outside the canonical project prefix: {raw}')
+    if parsed.scheme != 'https' or parsed.netloc != 'gpt.528.im':
+        raise ValueError(f'URL is outside the canonical Pages host: {raw}')
+    if parsed.query or parsed.fragment:
+        raise ValueError(f'URL is not canonical: {raw}')
     if not (raw == SITE_BASE or parsed.path.endswith('.html')):
         raise ValueError(f'Expected a canonical HTML page URL: {raw}')
     return raw
@@ -60,7 +60,7 @@ def main() -> int:
         if not local.is_file():
             raise ValueError(f'No matching local page: {local}')
 
-    payload = {'host': 'laoma528.github.io', 'key': key, 'keyLocation': KEY_URL, 'urlList': urls}
+    payload = {'host': 'gpt.528.im', 'key': key, 'keyLocation': KEY_URL, 'urlList': urls}
     if args.dry_run:
         print(json.dumps({'mode': 'dry-run', 'keyLocation': KEY_URL, 'urlList': urls}, ensure_ascii=False))
         return 0
