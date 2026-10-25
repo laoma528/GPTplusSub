@@ -2,13 +2,10 @@
   const measurementId = "G-SY5YCTVBY0";
   const serviceUrl = "https://prodclub.xyz/r/W3EF6W?src=GPTsub";
   const path = window.location.pathname;
-  const pageId = path.endsWith("third-party.html")
-    ? "third_party"
-    : path.endsWith("self-subscribe.html")
-      ? "self_subscribe"
-      : path.endsWith("about.html")
-        ? "about"
-        : "home";
+  const filename = path.split("/").pop() || "index.html";
+  const pageId = filename === "index.html"
+    ? "home"
+    : filename.replace(/\.html$/, "").replace(/-/g, "_");
 
   window.dataLayer = window.dataLayer || [];
   window.gtag = function () { window.dataLayer.push(arguments); };

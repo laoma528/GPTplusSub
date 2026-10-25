@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://gpt.528.im/</loc></url>
+  <url><loc>https://gpt.528.im/mainland.html</loc></url>
+  <url><loc>https://gpt.528.im/alipay-plus.html</loc></url>
+  <url><loc>https://gpt.528.im/session.html</loc></url>
+  <url><loc>https://gpt.528.im/order-help.html</loc></url>
   <url><loc>https://gpt.528.im/self-subscribe.html</loc></url>
+  <url><loc>https://gpt.528.im/payment-failed.html</loc></url>
+  <url><loc>https://gpt.528.im/billing.html</loc></url>
+  <url><loc>https://gpt.528.im/gift-cards.html</loc></url>
   <url><loc>https://gpt.528.im/third-party.html</loc></url>
   <url><loc>https://gpt.528.im/about.html</loc></url>
 </urlset>
