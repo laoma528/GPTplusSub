@@ -73,6 +73,6 @@ ProdClub 是**独立第三方**，提供向本人账号开通的代充服务，�
 
 ## 来源与维护
 
-地区和付款资格依据 [OpenAI 支持地区](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries)、[不支持地区说明](https://help.openai.com/en/articles/9131992-chatgpt-and-api-services-in-unsupported-countries-and-territories)及[网页支付方式](https://help.openai.com/en/articles/10421635-multicurrency-billing)。开通、Session、订单和售后依据 ProdClub 的[商品页](https://prodclub.xyz/offers/chatgpt-plus-1m)与[帮助中心](https://prodclub.xyz/help)，并按运营者确认的固定入口和访客价编写。最后核对：**2026 年 10 月 25 日**。
+地区和付款资格依据 [OpenAI 支持地区](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries)、[不支持地区说明](https://help.openai.com/en/articles/9131992-chatgpt-and-api-services-in-unsupported-countries-and-territories)及[网页支付方式](https://help.openai.com/en/articles/10421635-multicurrency-billing)。ProdClub 的开通、Session、订单和售后说明已经整理进本站的[下单教程](https://gpt.528.im/alipay-plus.html)、[Session 教程](https://gpt.528.im/session.html)和[订单售后教程](https://gpt.528.im/order-help.html)。需要进入代充网站时，只使用[本站指定入口](https://prodclub.xyz/r/W3EF6W?src=GPTsub)。最后核对：**2026 年 10 月 25 日**。
 
 本仓库的 [GitHub Pages 教程站](https://gpt.528.im/) 从 main 分支的 docs 目录发布。请勿在 Issue 里提交密码、验证码、Cookie、Session、API Key 或订单个人信息。

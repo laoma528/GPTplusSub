@@ -2,6 +2,8 @@
 # Block private SEO/GEO planning files even if they were force-added to Git.
 set -eu
 
+python scripts/check-referral-links.py
+
 while read -r local_ref local_sha remote_ref remote_sha; do
   remote_sha=$(printf '%s' "$remote_sha" | tr -d '\r')
   case "$local_sha" in
