@@ -1,6 +1,6 @@
 """Notify IndexNow about published GPTplusSub Pages URLs that actually changed.
 
-Run after GitHub Pages deployment, passing only new, changed, or removed URLs.
+Run after GitHub Pages deployment, passing only new or changed HTML URLs.
 This script validates the project's URL prefix and public key file before POST.
 An accepted submission does not mean the URL was crawled or indexed.
 """
