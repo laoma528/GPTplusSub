@@ -7,7 +7,7 @@
 **先看这两点：**
 
 - **套餐选择**：下文以 Plus 为操作示例，其他套餐以对应购买入口的支持情况为准。
-- **地区与付款**：截至 2026 年 10 月 25 日，中国大陆不在 [ChatGPT 官方支持地区名单](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries)中，官网不支持面向中国大陆的支付宝、微信直付。以下充值方式均不改变 OpenAI 的地区规则。
+- **地区与付款**：中国大陆不在 [ChatGPT 官方支持地区名单](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries)中，官网不支持面向中国大陆的支付宝、微信直付。以下充值方式均不改变 OpenAI 的地区规则。
 
 ## 路线一：支付宝买 Apple 礼品卡，在 iPhone 内购
 
@@ -55,7 +55,7 @@
 
 **操作图文与错误处理**：[支付宝买卡](https://gpt.528.im/alipay-apple-gift-card.html) · [Apple 兑换与 ChatGPT 内购](https://gpt.528.im/apple-gift-card.html) · [辨认不同礼品卡](https://gpt.528.im/gift-cards.html)。
 
-支付宝 Pockyt 的菜单顺序参考 2026 年 10 月的公开实测，本站已把步骤写在买卡页；Apple 账户、兑换和内购规则以 [Apple](https://support.apple.com/en-us/118242) 与 [OpenAI](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription) 官方说明为准。
+支付宝 Pockyt 的菜单可能调整，详细步骤见买卡页；Apple 账户、兑换和内购规则以 [Apple](https://support.apple.com/en-us/118242) 与 [OpenAI](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription) 官方说明为准。
 
 ## 路线二：用海外银行卡在官网直付
 
@@ -113,7 +113,7 @@
 已有能正常登录的 **ChatGPT 免费版账号**，可以按下面的流程了解并使用 ProdClub 本人账号代充服务。
 
 - **服务入口**：[前往 ProdClub](https://prodclub.xyz/r/W3EF6W?src=gptsub)。
-- **价格快照**：Plus 1 个月 **¥139**（运营者确认，2026 年 10 月 25 日）。
+- **订阅周期**：选择 Plus 1 个月商品，价格以商品页为准。
 - **付款前核对**：以订单页实际应付金额为准。
 
 ### 7 步完成一单
@@ -199,8 +199,6 @@
 ProdClub 的开通、Session、订单和售后说明已经整理进本站的[下单教程](https://gpt.528.im/alipay-plus.html)、[Session 教程](https://gpt.528.im/session.html)和[订单售后教程](https://gpt.528.im/order-help.html)。
 
 需要进入代充网站时，只使用[本站指定入口](https://prodclub.xyz/r/W3EF6W?src=gptsub)。
-
-最后核对：**2026 年 10 月 25 日**。
 
 本仓库的 [GitHub Pages 教程站](https://gpt.528.im/) 从 main 分支的 docs 目录发布。
 
