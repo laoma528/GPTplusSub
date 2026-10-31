@@ -59,9 +59,9 @@
 
 ## 路线二：用海外银行卡在官网直付
 
-**适用条件**：本人和发卡银行都位于 OpenAI 支持地区。
+**适用条件**：本人和发卡银行都位于 [OpenAI 支持地区](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries)。
 
-国内银行发行的双币 Visa、Mastercard 卡，不能仅凭卡面标识认定符合 OpenAI 的发卡地要求。
+**国内银行卡不支持官网直付**，包括国内银行发行的双币 Visa、Mastercard 卡。
 
 1. **准备银行卡与账单资料**
 
