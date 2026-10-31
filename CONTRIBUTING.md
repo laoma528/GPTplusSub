@@ -30,3 +30,14 @@ python scripts/check-referral-links.py
 Google、Bing 和 IndexNow 的站点验证文件，以及 GA4 测量标识，是网站正常公开资料；它们与登录令牌、API 私钥不同。
 
 检查不能识别所有业务机密或图片中的个人信息，人工审查仍然必要。不要绕过本地检查；其他电脑克隆仓库后也需要启用 hooks。
+
+## 真实内容更新日期
+
+修改并提交正文后，运行：
+
+```sh
+python scripts/update-content-dates.py --write
+python scripts/update-content-dates.py --check
+```
+
+再检查并提交生成的正文末尾日期与站点地图。日期取自 Git 中的真实内容变更；仅修改样式、导航、缓存版本或日期标签不会刷新文章日期。不要每日强行写入当天日期，也不要把链接巡检时间当作内容更新或事实核验时间。

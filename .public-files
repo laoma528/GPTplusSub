@@ -36,3 +36,4 @@ docs/virtual-card.html
 scripts/check-public-files.py
 scripts/check-referral-links.py
 scripts/seo-geo/submit-indexnow.py
+scripts/update-content-dates.py

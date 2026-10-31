@@ -25,6 +25,7 @@ PUBLIC_ROOT_FILES = {
     ".github/workflows/public-content-check.yml",
     "scripts/check-public-files.py", "scripts/check-referral-links.py",
     "scripts/seo-geo/submit-indexnow.py",
+    "scripts/update-content-dates.py",
 }
 REQUIRED_PUBLIC_FILES = {
     MANIFEST, ".gitignore", ".gitattributes", "README.md", "docs/index.html",

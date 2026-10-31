@@ -44,3 +44,4 @@
 !/scripts/check-referral-links.py
 !/scripts/seo-geo/
 !/scripts/seo-geo/submit-indexnow.py
+!/scripts/update-content-dates.py

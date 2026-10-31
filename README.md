@@ -203,3 +203,7 @@ ProdClub 的开通、Session、订单和售后说明已经整理进本站的[下
 本仓库的 [GitHub Pages 教程站](https://gpt.528.im/) 从 main 分支的 docs 目录发布。
 
 请勿在 Issue 里提交密码、验证码、Cookie、Session、API Key 或订单个人信息。
+
+<!-- content-updated:start -->
+内容更新：2026年11月1日
+<!-- content-updated:end -->
