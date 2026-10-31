@@ -1,0 +1,48 @@
+name: Public content check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  public-content:
+    name: Public files and credentials
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Check public files and new commits
+        shell: bash
+        run: |
+          python scripts/check-public-files.py --revision HEAD
+          python - <<'PY'
+          import json
+          import os
+          import subprocess
+          import sys
+
+          with open(os.environ['GITHUB_EVENT_PATH'], encoding='utf-8') as source:
+              event = json.load(source)
+          base = event.get('before')
+          if os.environ['GITHUB_EVENT_NAME'] == 'pull_request':
+              base = event['pull_request']['base']['sha']
+          if base and set(base) != {'0'}:
+              head = os.environ['GITHUB_SHA']
+              update = f'refs/heads/check {head} refs/heads/base {base}\n'
+              subprocess.run(
+                  [sys.executable, 'scripts/check-public-files.py', '--pre-push', '--remote', 'origin'],
+                  input=update, text=True, check=True,
+              )
+          PY
+      - name: Check service links
+        run: python scripts/check-referral-links.py

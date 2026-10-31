@@ -1,25 +1,6 @@
 #!/bin/sh
-# Block private SEO/GEO planning files even if they were force-added to Git.
+# Inspect committed snapshots, including intermediate commits in this push.
 set -eu
 
+python scripts/check-public-files.py --pre-push --remote "$1"
 python scripts/check-referral-links.py
-
-while read -r local_ref local_sha remote_ref remote_sha; do
-  remote_sha=$(printf '%s' "$remote_sha" | tr -d '\r')
-  case "$local_sha" in
-    0000000000000000000000000000000000000000) continue ;;
-  esac
-  case "$remote_sha" in
-    0000000000000000000000000000000000000000) commits=$(git -c safe.directory=G:/Github/GPTplusSub rev-list "$local_sha") ;;
-    *) commits=$(git -c safe.directory=G:/Github/GPTplusSub rev-list "$remote_sha..$local_sha") ;;
-  esac
-  for commit in $commits; do
-    paths=$(git -c safe.directory=G:/Github/GPTplusSub ls-tree -r --name-only "$commit")
-    if printf '%s\n' "$paths" | grep -E '^(planning/seo-geo-2026-10-24/|research/seo-geo-evidence-2026-10-24\.md$|research/seo-geo-serp-sample-2026-10-24\.json$)' >/dev/null; then
-      echo "Push blocked: private SEO/GEO file in commit $commit" >&2
-      exit 1
-    fi
-  done
-done
-
-exit 0

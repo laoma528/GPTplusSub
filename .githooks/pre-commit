@@ -1,0 +1,5 @@
+#!/bin/sh
+# Read staged blobs, not the possibly different working files.
+set -eu
+python scripts/check-public-files.py --staged
+python scripts/check-referral-links.py
