@@ -1,6 +1,6 @@
 # 参考资料索引
 
-核对日期：2026-10-24。用户提供的链接合并去重后，共十二个独立页面。本表保存原始入口和可借鉴的选题结构，不抓取或转载原文；网页内容随时可能变化。新补充的四页是用户搜索“chatgpt国内如何订阅”时在首页看到的链接，具体位次未记录，也不代表固定搜索排名。
+本索引保存用户提供的参考入口、内容结构和可借鉴方向，不转载原文。链接按具体页面去重；同站不同文章分别保留。搜索首页位置来自用户观察，不代表固定排名或本站已经独立复现的结果。公开正文抓取仅用于本地研究，不随仓库发布。
 
 | 来源 | 当前看到的重点 | 可借鉴的方向 | 使用时注意 |
 | --- | --- | --- | --- |
@@ -16,8 +16,19 @@
 | [PayForChat：Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026) | 先讲套餐是否适合，再讲官方流程、国内支付障碍、方式对比、服务流程、续费与发票 | “选不选 Plus”与“怎么付款”分层，服务介绍放在比较之后 | 站内人数、订单、时效与风险结论是商家自述；不得搬到本站。具体套餐和价格需查官方 |
 | [SealVPN：国内订阅 Plus 和 Codex](https://sealvpnapp.com/zh/blog/subscribe-chatgpt-plus-from-china) | 围绕 Apple 礼品卡路径写“前置条件—实际卡点—内购—订后使用”，另回答 Codex 常见疑问 | 做独立的苹果设备自助教程与错误排查，而非在总览页堆步骤 | “虚拟卡不能用”等绝对化判断与其下方融达文章相互冲突；具体建议必须有当期证据 |
 | [融达虚拟信用卡：Plus 国内开通指南](https://rdvcc.com/blog/post/chatgpt-plus-guide) | 很长的虚拟卡路线文章，从账号、卡、账单到失败、续费、发票和退订 | 提取用户关心的失败症状与账单问题，做简短排查入口 | 文中的卡段、成功率、IP、账号“养号”要求及账本数据均为商家口径；不写成 OpenAI 官方要求，也不提供规避限制的保证 |
+| [LEEDU：国内开通 Plus](https://leedu.ac.cn/article/how-to-subscribe-chatgpt-plus-china/) | 先判断是否需要 Plus，再区分官方网页、App、第三方；FAQ 回答 API、多月购买和账号问题 | 在充值教程补上“是否值得订阅”，把付款资格与渠道交付分开 | 功能资格、模型和套餐说明需查官方；其推荐商家及服务条款不移植到本站 |
+| [gptdeep/chatgpt-plus](https://github.com/gptdeep/chatgpt-plus) | README 用支付失败切入，再写服务流程、免费与 Plus 差异及分组 FAQ | 按账号、会员、付款、设备组织问题，并提供对应教程入口 | 文中绝对化风控原因、封号判断、企业数据与旧模型宣传不沿用；不借其背书宣传 ProdClub |
+| [ClaudeMax：Plus / Pro 国内购买指南](https://claudemax.shop/blog/chatgpt-plus-pro-china-buying-guide) | 把账号状态、套餐选择、凭证、支付、核验、续费分开；用表格写商品条件与售后责任 | 先回答“我的账号能否下单”，再给操作步骤；按失败状态安排售后入口 | 其 Pro 条件、报价、退款、发票、提醒和到账承诺均不是 ProdClub 的规则 |
+| [Google Sites：大陆地区订阅 Plus](https://sites.google.com/view/chatgpt888/chatgpt-plus) | 单页先给本人账号充值流程，再回答付款失败、卡密与账号归属等问题 | 总览教程与代充专页分工，写出可独立操作的流程，再链接主站补充排障 | 与索引内 `/chatgpt-plus-dingyue` 不是同一页面；第三方卡密不是 ChatGPT 官方兑换码，托管在 Google 不代表官方背书或排名保证 |
+| [知乎：ChatGPT Plus 国内如何订阅](https://zhuanlan.zhihu.com/p/2074503449715151991) | 用检查表区分地区、商品主体、订单证据与售后；正文有大量重复判断 | 借鉴“付款成功不等于交付符合预期”的核验思路与简短问题清单 | 不学关键词重复和冗长边界描述；页面内广告主体及承诺不移植到本站 |
 
 本批重复入口：[youngyangyang04/gpt-daichong](https://github.com/youngyangyang04/gpt-daichong) 与 [chatgpt-plus.github.io 首页](https://chatgpt-plus.github.io/) 已在上表，未新增两条重复记录。
+
+## 用户补充的搜索首页参考页
+
+本次收到 8 个入口，新增 5 个，另有 3 个已收录：SealVPN、PayForChat 购买指南、小林 coding 的 `/other/chatgptplus.html`。8 页均已通过 Jina Reader 读取公开正文；已有入口不重复建行。其共同可用结构是：先选路线、说明账号条件、分步骤操作、在文末回答高频问题。主站 FAQ 应直接回答问题，再链接到专题页；不复制这些文章的表述、图片和服务承诺。
+
+Google Sites 保留四种方式的完整订阅教程，另增独立第三方代充教程；主站继续提供详细排障和 FAQ。Google 的[排名系统说明](https://developers.google.com/search/docs/appearance/ranking-systems-guide)表明排名同时采用页面级和站点级信号，不能以托管域名推断必然收录或高排名。FAQ 的价值在于解答读者问题；Google 已[停止展示 FAQ 富结果](https://developers.google.com/search/updates)，不为争取该展示额外堆 FAQ 标记。
 
 ## 从这些页面提炼的待写选题
 

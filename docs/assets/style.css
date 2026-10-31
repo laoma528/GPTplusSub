@@ -66,6 +66,13 @@
 .keep-together{display:inline-block}
 .guide-home .title-routes{display:block;margin-top:10px;font-size:22px;line-height:1.65;font-weight:500}
 .guide .purchase-summary{margin:24px 0}
+.faq{margin-top:48px}
+.faq details{border-bottom:1px solid var(--line);padding:0}
+.faq summary{padding:18px 28px 18px 0;font-weight:600;cursor:pointer;line-height:1.7;position:relative;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:4px;top:18px;font-size:20px;font-weight:400}
+.faq details[open] summary::after{content:"−"}
+.guide .faq details>p{margin:0;padding:0 0 20px;color:var(--body)}
 @media(max-width:767px){
   .steps-list>li{padding-left:46px!important}
   .steps-list>li::before{width:30px;height:30px}
