@@ -1,5 +1,6 @@
-"""Fail if a public page links to ProdClub outside the credited entry point."""
+"""Check ProdClub destinations and service-click placement markers."""
 
+from html.parser import HTMLParser
 from pathlib import Path
 import re
 import sys
@@ -17,8 +18,31 @@ public_files = [root / "README.md", *sorted((root / "docs").glob("*.html"))]
 public_files += sorted((root / "docs" / "assets").glob("*.js"))
 violations = []
 
+
+class ServiceLinkParser(HTMLParser):
+    def __init__(self, path):
+        super().__init__()
+        self.path = path
+
+    def handle_starttag(self, tag, attrs):
+        if tag != "a":
+            return
+        attrs = dict(attrs)
+        if attrs.get("href") != allowed:
+            return
+        if not (attrs.get("data-service-placement") or "").strip():
+            line, _ = self.getpos()
+            violations.append(
+                f"{self.path.relative_to(root)}:{line}: "
+                "service link is missing a non-empty data-service-placement"
+            )
+
+
 for path in public_files:
-    for number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+    content = path.read_text(encoding="utf-8")
+    if path.parent == root / "docs" and path.suffix == ".html":
+        ServiceLinkParser(path).feed(content)
+    for number, line in enumerate(content.splitlines(), 1):
         for url in url_pattern.findall(line):
             if path == root / "docs" / "codex-windows.html" and url in download_article_urls:
                 continue
@@ -26,7 +50,7 @@ for path in public_files:
                 violations.append(f"{path.relative_to(root)}:{number}: {url}")
 
 if violations:
-    print("Non-referral ProdClub URLs are forbidden in public content:")
+    print("ProdClub destination or service-click tracking checks failed:")
     print("\n".join(violations))
     sys.exit(1)
 
