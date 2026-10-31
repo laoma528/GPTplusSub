@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Windows 版 Codex 下载：官方安装包，不用打开微软商店</title>
+  <meta name="description" content="Windows 版 Codex 官方安装包下载入口，支持 x64 与 ARM64；说明文件来源、签名核对、安装步骤和常见问题。">
+  <link rel="canonical" href="https://gpt.528.im/codex-windows.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="assets/style.css?v=20261025-guides">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SY5YCTVBY0"></script>
+  <script defer src="assets/analytics.js?v=20261025-guides"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到正文</a>
+<header class="top"><div class="wrap"><a class="brand" href="./">ChatGPT 订阅指南</a><nav aria-label="主导航"><a href="./">首页</a><a href="apple-gift-card.html">Apple 礼品卡</a><a href="foreign-card.html">海外银行卡</a><a href="virtual-card.html">虚拟卡</a><a href="alipay-plus.html">代充服务</a><a href="about.html">关于本站</a></nav><details class="nav-menu"><summary>菜单</summary><div class="menu-links"><a href="./">首页</a><a href="apple-gift-card.html">Apple 礼品卡</a><a href="foreign-card.html">海外银行卡</a><a href="virtual-card.html">虚拟卡</a><a href="alipay-plus.html">代充服务</a><a href="about.html">关于本站</a></div></details></div></header>
+<main id="main" class="wrap guide">
+  <p class="eyebrow">Windows 版 Codex</p>
+  <h1>官方安装包，不用打开微软商店</h1>
+  <p class="lead">直接下载微软商店中的安装包：由 OpenAI 发布，经微软商店签名，从微软下载服务器获取，国内有下载节点。</p>
+  <div class="actions" aria-label="选择电脑架构下载">
+    <a class="button" href="https://prodclub.xyz/api/v1/downloads/codex-windows">下载 Windows 版（x64）</a>
+    <a class="button secondary" href="https://prodclub.xyz/api/v1/downloads/codex-windows?arch=arm64">下载 ARM64 版</a>
+  </div>
+  <p class="meta">x64 约 930 MB · ARM64 约 1 GB · .msix 格式 · 骁龙等 ARM 电脑请选择 ARM64 版<br>内容整理：2026 年 10 月 31 日 · 下载入口由 ProdClub 提供</p>
+  <div class="guide-body">
+    <h2 id="source">这个文件从哪来？</h2>
+    <ul>
+      <li><strong>OpenAI 发布</strong>：安装包名称为 <code>OpenAI.Codex</code>，发布者为 OpenAI。</li>
+      <li><strong>微软商店签名</strong>：与商店中的安装包相同，带有微软商店签名。</li>
+      <li><strong>直接下载</strong>：入口解析后，从微软下载服务器传输到你的电脑，安装包不经过本站。</li>
+    </ul>
+    <h2 id="verify">下载后，自己核对这几项</h2>
+    <ol class="steps-list">
+      <li><strong>看下载来源</strong><p>在浏览器下载记录中查看实际下载地址，通常来自微软的 <code>microsoft.com</code> 域名。</p></li>
+      <li><strong>看发布者</strong><p>双击安装包，检查安装窗口是否显示“发布者：OpenAI”。</p></li>
+      <li><strong>由 Windows 检查签名</strong><p>Windows 安装时会验证包签名；文件被篡改会导致签名校验失败。不要跳过签名错误继续安装。</p></li>
+    </ol>
+    <p>这条下载路线提供的是原版 <code>.msix</code> 包，不需要额外运行第三方 <code>.exe</code> 安装器，也不需要把 Codex 配置为第三方接口。</p>
+    <h2 id="install">三步装好</h2>
+    <ol class="steps-list">
+      <li><strong>安装文件</strong><p>双击下载好的 <code>.msix</code>，核对发布者后点击“安装”。如出现允许更改的提示，确认是这次安装再继续。</p></li>
+      <li><strong>从开始菜单打开</strong><p>安装后，在开始菜单找到“ChatGPT”，Codex 在应用内。</p></li>
+      <li><strong>登录账号</strong><p>使用自己的 ChatGPT 账号登录。应用后续会自动更新。</p></li>
+    </ol>
+    <h2 id="help">遇到这些情况怎么办？</h2>
+    <h3>浏览器提示“不安全的下载”或“通常不会下载此文件”</h3>
+    <p>原页面说明，部分微软下载地址使用 HTTP，可能触发浏览器提醒。先核对实际来源，再决定是否选择“保留”；安装时继续检查发布者和 Windows 签名结果。</p>
+    <h3>双击没反应，或提示需要“应用安装程序”</h3>
+    <p>系统可能缺少应用安装程序组件，精简版 Windows 较常见。可以使用 PowerShell 安装：右键开始按钮，打开“终端（管理员）”；Windows 10 上可打开“Windows PowerShell（管理员）”。</p>
+    <p>输入下面的命令和一个空格，再将下载好的文件拖进窗口，确认完整文件路径后按回车：</p>
+    <p><code>Add-AppxPackage -Path </code></p>
+    <h3>下载转到了 OpenAI 的服务器</h3>
+    <p>ProdClub 说明：微软暂时无法提供下载地址时，入口会回退到 OpenAI 的下载服务器，文件相同，国内下载速度可能较慢。</p>
+    <h3>使用的是 Mac 电脑</h3>
+    <p>请前往 <a href="https://learn.chatgpt.com/docs/app">OpenAI 官网</a>选择 Mac 下载入口。</p>
+  </div>
+  <aside class="next-guides"><h2>准备好了，就从这里下载</h2><p><a href="https://prodclub.xyz/api/v1/downloads/codex-windows">Windows x64 版（约 930 MB）</a> · <a href="https://prodclub.xyz/api/v1/downloads/codex-windows?arch=arm64">Windows ARM64 版（约 1 GB）</a></p></aside>
+  <section class="sources" aria-label="内容来源"><h2>来源与相关入口</h2>
+    <p>本页依据 <a href="https://prodclub.xyz/download/codex">ProdClub Windows 版 Codex 下载页</a>整理，保留其下载入口、来源说明、安装步骤与常见问题。版本、大小和下载地址以实际返回为准。</p>
+    <p><a href="https://learn.chatgpt.com/docs/app/windows">OpenAI 官方 Windows 应用文档</a> · <a href="https://prodclub.xyz/r/W3EF6W?src=gptsub">ProdClub 服务入口</a> · <a href="./">返回订阅指南首页</a></p>
+  </section>
+</main>
+<footer class="footer"><div class="wrap"><p>独立教程站；ProdClub 为第三方代充服务，与 OpenAI 无隶属或授权关系。请勿在公开页面提交账号凭据。</p><p><a href="./">首页</a> · <a href="about.html">项目说明</a> · <a href="https://github.com/laoma528/GPTplusSub">GitHub</a></p></div></footer>
+</body></html>
