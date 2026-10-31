@@ -18,6 +18,10 @@
 .guide .lead{max-width:800px;font-size:18px;line-height:1.75}
 .guide .meta{margin:22px 0 0;padding-bottom:36px;border-bottom:1px solid var(--line)}
 .guide-body{padding-top:38px}
+.guide>.guide-body{margin-top:32px;padding-top:28px;border-top:1px solid var(--line)}
+.guide>.guide-body>h2:first-child{margin-top:0}
+.guide.guide-home>.guide-body{margin-top:0;padding-top:12px;border-top:0}
+.guide>.meta+.guide-body{margin-top:0;border-top:0}
 .guide h2{margin:50px 0 17px;font-size:26px;line-height:1.4;scroll-margin-top:22px}
 .guide h3{margin:34px 0 12px;font-size:19px;line-height:1.45}
 .guide p,.guide li{line-height:1.84}
