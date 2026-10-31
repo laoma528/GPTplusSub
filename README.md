@@ -19,24 +19,71 @@
 
 **Apple 账户负责付款，ChatGPT 账号负责使用。** 准备条件不符合时，先不要买卡。
 
-1. 在 iPhone 打开 **App Store → 右上角头像**，确认当前“媒体与购买项目”的 Apple 账户地区。需要改区时，Apple 官方路径为“设置 → 你的姓名 → 媒体与购买项目 → 查看账户 → 国家/地区”。改区前要处理余额、订阅和待办交易；Apple 可能要求新地区有效的付款方式。不要填虚构账单地址。
-2. 打开支付宝，尝试把首页城市切到美国城市，在 **Coupons / 优惠券 → 大牌礼卡 → Pockyt** 找“App Store & iTunes USA”。找不到菜单，可在支付宝顶部搜索框打开参考教程给出的 [Pockyt Shop 链接](https://ur.alipay.com/_5pdWVYNxT2sYKHaPeYkNZh)，再选美国地区的 App Store & iTunes 卡。这个商家入口可能改版；支付宝城市选择只用于找商品。
-3. 先在 ChatGPT iOS App 的升级页看 Apple 内购弹窗显示的**含税总额**；再在 Pockyt 选足够的美元面额，核对卡的地区、人民币应付额与邮箱，用支付宝完成付款。不要只凭其他人截图里的 19.99 美元推算自己所需余额。
-4. 收到电子兑换码后，在 iPhone **App Store → 头像 → 兑换礼品卡或代码 → 手动输入代码 → 兑换**，随后在头像页确认 Apple 账户余额确已增加。代码只能在对应地区的 Apple 账户兑换。
-5. 从 App Store 打开**官方 ChatGPT App**，登录原 ChatGPT 账号。在对话页点“Get Plus / 升级”，或从菜单 → 你的姓名 → 设置 →“Upgrade / 升级套餐”。确认弹出的确是 **Apple App Store 购买框**；如果跳到 ChatGPT 网页结算，Apple 余额不能自动在那里付卡款。
-6. 核对套餐、周期、税后总额和下一次扣款日，再用 Face ID 或侧边键确认。买完到 ChatGPT 查看 Plus，同时到 iPhone“设置 → 你的姓名 → 订阅”查看 ChatGPT 的 Apple 订阅。若已扣费但仍是 Free，在 ChatGPT 设置 → Account / 账户 → Restore purchases / 恢复购买，别立刻重买。
+1. **确认 Apple 账户地区**
 
-操作图文与错误处理：[支付宝买卡](https://gpt.528.im/alipay-apple-gift-card.html) · [Apple 兑换与 ChatGPT 内购](https://gpt.528.im/apple-gift-card.html) · [辨认不同礼品卡](https://gpt.528.im/gift-cards.html)。支付宝 Pockyt 的菜单顺序参考 2026 年 10 月的公开实测，本站已把步骤写在买卡页；Apple 账户、兑换和内购规则以 [Apple](https://support.apple.com/en-us/118242) 与 [OpenAI](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription) 官方说明为准。
+   在 iPhone 打开 **App Store → 右上角头像**，确认当前“媒体与购买项目”的 Apple 账户地区。
+
+   需要改区时，Apple 官方路径为“设置 → 你的姓名 → 媒体与购买项目 → 查看账户 → 国家/地区”。改区前要处理余额、订阅和待办交易；Apple 可能要求新地区有效的付款方式。不要填虚构账单地址。
+
+2. **找到礼品卡商品**
+
+   打开支付宝，尝试把首页城市切到美国城市，在 **Coupons / 优惠券 → 大牌礼卡 → Pockyt** 找“App Store & iTunes USA”。
+
+   找不到菜单，可在支付宝顶部搜索框打开参考教程给出的 [Pockyt Shop 链接](https://ur.alipay.com/_5pdWVYNxT2sYKHaPeYkNZh)，再选美国地区的 App Store & iTunes 卡。这个商家入口可能改版；支付宝城市选择只用于找商品。
+
+3. **核对金额并买卡**
+
+   先在 ChatGPT iOS App 的升级页看 Apple 内购弹窗显示的**含税总额**；再在 Pockyt 选足够的美元面额，核对卡的地区、人民币应付额与邮箱，用支付宝完成付款。
+
+   不要只凭其他人截图里的 19.99 美元推算自己所需余额。
+
+4. **兑换礼品卡**
+
+   收到电子兑换码后，在 iPhone **App Store → 头像 → 兑换礼品卡或代码 → 手动输入代码 → 兑换**，随后在头像页确认 Apple 账户余额确已增加。代码只能在对应地区的 Apple 账户兑换。
+
+5. **进入官方 App 升级页**
+
+   从 App Store 打开**官方 ChatGPT App**，登录原 ChatGPT 账号。在对话页点“Get Plus / 升级”，或从菜单 → 你的姓名 → 设置 →“Upgrade / 升级套餐”。
+
+   确认弹出的确是 **Apple App Store 购买框**；如果跳到 ChatGPT 网页结算，Apple 余额不能自动在那里付卡款。
+
+6. **确认购买并检查订阅**
+
+   核对套餐、周期、税后总额和下一次扣款日，再用 Face ID 或侧边键确认。买完到 ChatGPT 查看 Plus，同时到 iPhone“设置 → 你的姓名 → 订阅”查看 ChatGPT 的 Apple 订阅。
+
+   若已扣费但仍是 Free，在 ChatGPT 设置 → Account / 账户 → Restore purchases / 恢复购买，别立刻重买。
+
+**操作图文与错误处理**：[支付宝买卡](https://gpt.528.im/alipay-apple-gift-card.html) · [Apple 兑换与 ChatGPT 内购](https://gpt.528.im/apple-gift-card.html) · [辨认不同礼品卡](https://gpt.528.im/gift-cards.html)。
+
+支付宝 Pockyt 的菜单顺序参考 2026 年 10 月的公开实测，本站已把步骤写在买卡页；Apple 账户、兑换和内购规则以 [Apple](https://support.apple.com/en-us/118242) 与 [OpenAI](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription) 官方说明为准。
 
 ## 路线二：用海外银行卡在官网直付
 
-适合本人和**发卡银行**都位于 OpenAI 支持地区的读者。国内银行发行的双币 Visa、Mastercard 卡，不能仅凭卡面标识认定符合 OpenAI 的发卡地要求。
+**适用条件**：本人和发卡银行都位于 OpenAI 支持地区。
 
-1. 向银行确认卡可用于线上国际交易、周期订阅，并能完成 3D Secure / 银行 App 验证；备好银行登记的真实账单地址与邮编。
-2. 打开 [chatgpt.com](https://chatgpt.com/)，登录要升级的本人账号，先从头像 → Settings / 设置核对已有套餐和账单。然后点 **Upgrade plan / 升级套餐 → Get Plus**。
-3. 在结算页核对套餐、币种、税后应付额与续费日期。填卡号、有效期、CVC，以及与银行记录一致的账单信息，再提交一次。
-4. 若银行弹出验证，不要关闭支付页；在银行 App 或短信中完成验证。成功后回同一 ChatGPT 账号的 **Settings → Billing / 账单**核对 Plus、收据和下一次扣款。
-5. 被拒时先检查卡资料、余额、发卡地和银行对周期交易的限制；3D 验证没弹出可尝试无痕窗口，并联系银行。不要靠编造账单地址反复试卡。
+国内银行发行的双币 Visa、Mastercard 卡，不能仅凭卡面标识认定符合 OpenAI 的发卡地要求。
+
+1. **准备银行卡与账单资料**
+
+   向银行确认卡可用于线上国际交易、周期订阅，并能完成 3D Secure / 银行 App 验证；备好银行登记的真实账单地址与邮编。
+
+2. **登录并选择套餐**
+
+   打开 [chatgpt.com](https://chatgpt.com/)，登录要升级的本人账号，先从头像 → Settings / 设置核对已有套餐和账单。然后点 **Upgrade plan / 升级套餐 → Get Plus**。
+
+3. **核对订单并填卡**
+
+   在结算页核对套餐、币种、税后应付额与续费日期。填卡号、有效期、CVC，以及与银行记录一致的账单信息，再提交一次。
+
+4. **完成验证并检查账单**
+
+   若银行弹出验证，不要关闭支付页；在银行 App 或短信中完成验证。
+
+   成功后回同一 ChatGPT 账号的 **Settings → Billing / 账单**核对 Plus、收据和下一次扣款。
+
+5. **付款失败时排查**
+
+   被拒时先检查卡资料、余额、发卡地和银行对周期交易的限制；3D 验证没弹出可尝试无痕窗口，并联系银行。不要靠编造账单地址反复试卡。
 
 [海外银行卡每个输入框与失败分支](https://gpt.528.im/foreign-card.html) · [OpenAI 拒付官方说明](https://help.openai.com/en/articles/7232916-why-was-my-credit-card-declined)。
 
@@ -52,7 +99,9 @@
 确认上述条件和本人所在地均符合 OpenAI 要求后，再按以下顺序操作：
 
 1. **开户与充值**：按卡商正规流程开户，先小额充值。
+
 2. **绑定与付款**：按路线二的官网直付步骤操作。
+
 3. **核对记录**：付款后，分别查看 ChatGPT 账单和卡商交易记录。
 
 **不再使用时**：先在 ChatGPT 取消订阅，再处理卡内余额。只锁卡不等于取消订阅。
@@ -69,15 +118,52 @@
 
 ### 7 步完成一单
 
-1. **看清账号**。打开 [ChatGPT](https://chatgpt.com/) 登录以后要使用 Plus 的账号，点头像进入设置，确认目前显示 Free。ProdClub 当前 Plus 商品要求免费版，不能覆盖已有 Plus。已有付费订阅先看[续费、取消和退款教程](https://gpt.528.im/billing.html)。
-2. **打开指定入口**。进入 [ProdClub](https://prodclub.xyz/r/W3EF6W?src=gptsub)，在“资源大厅”点“ChatGPT Plus”，确认商品为“1 个月 / 自有账号开通”。不要误选 Pro 或接码商品。
-3. **提交订单**。看清免费版账号条件、售后条款和实际应付金额；选“支付宝”，按页面提示填写能收邮件的邮箱，点击“提交订单”。订单链接会发到这个邮箱。
-4. **完成支付宝付款**。电脑用支付宝扫码，手机按收银台提示付款。付完回到原订单页等待自动确认；不要再下第二单，也不要在已付款后点“取消订单”。
-5. **复制 Session**。在同一个浏览器登录要升级的 ChatGPT 账号，新标签页打开 https://chatgpt.com/api/auth/session 。电脑按 Ctrl+A 全选再复制；手机长按“全选”后复制。回到 **ProdClub 原订单页**，把整段内容粘贴进 Session 输入框并提交。它是敏感登录凭据，别发给客服私聊、群聊或 GitHub。详细报错处理见 [Session 教程](https://gpt.528.im/session.html)。
-6. **等订单处理**。订单页会显示结果；商家说明通常一两分钟。提示安全验证就按订单页操作；提示重交 Session 或转人工，保留订单号，按[订单故障教程](https://gpt.528.im/order-help.html)继续，不要再付款。
-7. **核对本人账号**。刷新 ChatGPT，在原账号的设置中查看套餐是否显示 Plus。若订单显示完成而账号仍是 Free，先确认登录方式没有换错，再带订单号联系商家。
+1. **看清账号**
 
-ProdClub 是**独立第三方**，提供向本人账号开通的代充服务，不给新号、不共享，支持支付宝；其“官方渠道充值”描述的是商家采用的开通方式，不代表 ProdClub 是 OpenAI 官方或授权合作方。商家说明开通后删除用于开通的 Session。账号访问仍受 OpenAI 官方地区和政策限制。
+   打开 [ChatGPT](https://chatgpt.com/) 登录以后要使用 Plus 的账号，点头像进入设置，确认目前显示 Free。
+
+   ProdClub 当前 Plus 商品要求免费版，不能覆盖已有 Plus。已有付费订阅先看[续费、取消和退款教程](https://gpt.528.im/billing.html)。
+
+2. **打开指定入口**
+
+   进入 [ProdClub](https://prodclub.xyz/r/W3EF6W?src=gptsub)，在“资源大厅”点“ChatGPT Plus”，确认商品为“1 个月 / 自有账号开通”。不要误选 Pro 或接码商品。
+
+3. **提交订单**
+
+   看清免费版账号条件、售后条款和实际应付金额；选“支付宝”，按页面提示填写能收邮件的邮箱，点击“提交订单”。订单链接会发到这个邮箱。
+
+4. **完成支付宝付款**
+
+   电脑用支付宝扫码，手机按收银台提示付款。
+
+   付完回到原订单页等待自动确认；不要再下第二单，也不要在已付款后点“取消订单”。
+
+5. **复制 Session**
+
+   在同一个浏览器登录要升级的 ChatGPT 账号，新标签页打开 https://chatgpt.com/api/auth/session 。
+
+   电脑按 Ctrl+A 全选再复制；手机长按“全选”后复制。回到 **ProdClub 原订单页**，把整段内容粘贴进 Session 输入框并提交。
+
+   它是敏感登录凭据，别发给客服私聊、群聊或 GitHub。详细报错处理见 [Session 教程](https://gpt.528.im/session.html)。
+
+6. **等订单处理**
+
+   订单页会显示结果；商家说明通常一两分钟。
+
+   提示安全验证就按订单页操作；提示重交 Session 或转人工，保留订单号，按[订单故障教程](https://gpt.528.im/order-help.html)继续，不要再付款。
+
+7. **核对本人账号**
+
+   刷新 ChatGPT，在原账号的设置中查看套餐是否显示 Plus。
+
+   若订单显示完成而账号仍是 Free，先确认登录方式没有换错，再带订单号联系商家。
+
+**服务说明**
+
+- **账号与支付**：向本人账号开通，不给新号、不共享，支持支付宝。
+- **服务主体**：ProdClub 是独立第三方。“官方渠道充值”描述的是商家采用的开通方式，不代表其是 OpenAI 官方或授权合作方。
+- **Session 处理**：商家说明，开通后删除用于开通的 Session。
+- **地区限制**：账号访问仍受 OpenAI 官方地区和政策限制。
 
 ### 代充服务：下单、Session 与售后教程
 
@@ -93,7 +179,12 @@ ProdClub 是**独立第三方**，提供向本人账号开通的代充服务，�
 | 不确定代充、成品号和共享号区别 | [第三方服务与本人账号](https://gpt.528.im/third-party.html) |
 | 所在地和付款方式都符合 OpenAI 要求，想自己订 | [官网网页与官方 App 操作](https://gpt.528.im/self-subscribe.html) |
 
-**其他路线的独立教程**：[支付宝买 Apple 礼品卡](https://gpt.528.im/alipay-apple-gift-card.html) · [Apple 兑换与内购](https://gpt.528.im/apple-gift-card.html) · [海外银行卡直付](https://gpt.528.im/foreign-card.html) · [虚拟卡准备与支付](https://gpt.528.im/virtual-card.html)。
+**其他路线的独立教程**
+
+- [支付宝买 Apple 礼品卡](https://gpt.528.im/alipay-apple-gift-card.html)
+- [Apple 兑换与内购](https://gpt.528.im/apple-gift-card.html)
+- [海外银行卡直付](https://gpt.528.im/foreign-card.html)
+- [虚拟卡准备与支付](https://gpt.528.im/virtual-card.html)。
 
 ## 三个常见错误，先避开
 
@@ -103,6 +194,14 @@ ProdClub 是**独立第三方**，提供向本人账号开通的代充服务，�
 
 ## 来源与维护
 
-地区和付款资格依据 [OpenAI 支持地区](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries)、[不支持地区说明](https://help.openai.com/en/articles/9131992-chatgpt-and-api-services-in-unsupported-countries-and-territories)及[网页支付方式](https://help.openai.com/en/articles/10421635-multicurrency-billing)。ProdClub 的开通、Session、订单和售后说明已经整理进本站的[下单教程](https://gpt.528.im/alipay-plus.html)、[Session 教程](https://gpt.528.im/session.html)和[订单售后教程](https://gpt.528.im/order-help.html)。需要进入代充网站时，只使用[本站指定入口](https://prodclub.xyz/r/W3EF6W?src=gptsub)。最后核对：**2026 年 10 月 25 日**。
+地区和付款资格依据 [OpenAI 支持地区](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries)、[不支持地区说明](https://help.openai.com/en/articles/9131992-chatgpt-and-api-services-in-unsupported-countries-and-territories)及[网页支付方式](https://help.openai.com/en/articles/10421635-multicurrency-billing)。
 
-本仓库的 [GitHub Pages 教程站](https://gpt.528.im/) 从 main 分支的 docs 目录发布。请勿在 Issue 里提交密码、验证码、Cookie、Session、API Key 或订单个人信息。
+ProdClub 的开通、Session、订单和售后说明已经整理进本站的[下单教程](https://gpt.528.im/alipay-plus.html)、[Session 教程](https://gpt.528.im/session.html)和[订单售后教程](https://gpt.528.im/order-help.html)。
+
+需要进入代充网站时，只使用[本站指定入口](https://prodclub.xyz/r/W3EF6W?src=gptsub)。
+
+最后核对：**2026 年 10 月 25 日**。
+
+本仓库的 [GitHub Pages 教程站](https://gpt.528.im/) 从 main 分支的 docs 目录发布。
+
+请勿在 Issue 里提交密码、验证码、Cookie、Session、API Key 或订单个人信息。
