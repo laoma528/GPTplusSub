@@ -7,13 +7,13 @@
   <meta name="description" content="ProdClub ChatGPT Plus 订单异常按状态处理：付款后页面没更新、订单丢失、Session 失败、人工处理、退款和开通后售后。">
   <link rel="canonical" href="https://gpt.528.im/order-help.html">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="assets/style.css?v=20261025-guides">
+  <link rel="stylesheet" href="assets/style.css?v=20261031-reading">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SY5YCTVBY0"></script>
   <script defer src="assets/analytics.js?v=20261025-guides"></script>
 </head>
 <body>
 <a class="skip-link" href="#main">跳到正文</a>
-<header class="top"><div class="wrap"><a class="brand" href="./">ChatGPT 订阅指南</a><nav aria-label="主导航"><a href="./">首页</a><a href="apple-gift-card.html">Apple 礼品卡</a><a href="foreign-card.html">海外银行卡</a><a href="virtual-card.html">虚拟卡</a><a href="alipay-plus.html">代充服务</a><a href="about.html">关于本站</a></nav><details class="nav-menu"><summary>菜单</summary><div class="menu-links"><a href="./">首页</a><a href="apple-gift-card.html">Apple 礼品卡</a><a href="foreign-card.html">海外银行卡</a><a href="virtual-card.html">虚拟卡</a><a href="alipay-plus.html">代充服务</a><a href="about.html">关于本站</a></div></details></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="./">ChatGPT 订阅指南</a><nav aria-label="主导航"><a href="./">首页</a><a href="apple-gift-card.html">Apple 礼品卡</a><a href="foreign-card.html">海外银行卡</a><a href="virtual-card.html">虚拟卡</a><a href="alipay-plus.html">三方代充</a><a href="about.html">关于本站</a></nav><details class="nav-menu"><summary>菜单</summary><div class="menu-links"><a href="./">首页</a><a href="apple-gift-card.html">Apple 礼品卡</a><a href="foreign-card.html">海外银行卡</a><a href="virtual-card.html">虚拟卡</a><a href="alipay-plus.html">三方代充</a><a href="about.html">关于本站</a></div></details></div></header>
 <main id="main" class="wrap guide">
   <p class="eyebrow">订单与售后</p>
   <h1>钱付了，Plus 还没开通：先按订单状态处理。</h1>
@@ -21,20 +21,23 @@
   <p class="meta">最后核对：2026 年 10 月 25 日 · 面向中国大陆地区用户</p>
   <div class="guide-body">
 <h2 id="find">先找回原订单</h2>
-<ol class="steps-list"><li>打开下单时填写的邮箱，搜索 ProdClub 的订单邮件，点里面的订单链接。检查垃圾邮件箱。</li><li>如果仍用下单时的同一浏览器，可打开 ProdClub 首页，页面顶部可能列出未完成订单。</li><li>邮件没找到且换了设备，准备订单号或付款截图，通过 ProdClub 页面里的“客服”入口联系商家找回。订单链接拿到的人可以操作这张单，别发给无关的人。</li></ol>
+<ol class="steps-list"><li><strong>搜索下单邮箱</strong><p>打开下单时填写的邮箱，搜索 ProdClub 的订单邮件，点里面的订单链接。检查垃圾邮件箱。</p></li><li><strong>用原浏览器找订单</strong><p>如果仍用下单时的同一浏览器，可打开 ProdClub 首页，页面顶部可能列出未完成订单。</p></li><li><strong>联系商家找回</strong><p>邮件没找到且换了设备，准备订单号或付款截图，通过 ProdClub 页面里的“客服”入口联系商家找回。订单链接拿到的人可以操作这张单，别发给无关的人。</p></li></ol>
 <h2 id="payment">状态一：支付宝扣款了，订单还显示待付款</h2>
 <p>付款后先回到原订单页等收款确认。ProdClub 说明付款确认通常几十秒，订单会自己进入下一步；不要再点一次“提交订单”或重新扫码付第二笔。若一直没变化，记下订单号、支付宝付款时间与金额，带这些信息找商家客服核对；可以提供不含 Session 的付款截图。</p>
 <h2 id="session">状态二：订单提示交 Session 或提示内容无效</h2>
-<p>按 <a href="session.html#copy">Session 教程</a>在同一浏览器登录 ChatGPT，打开 <code>https://chatgpt.com/api/auth/session</code>，整段全选复制到原订单。“没有 accessToken”先登录；“Session 不完整”重新全选，不要经聊天软件转发。账号本来已有 Plus 时，这款商品不能覆盖；别反复提交。</p>
+<p>按 <a href="session.html#copy">Session 教程</a>在同一浏览器登录 ChatGPT，打开 <code>https://chatgpt.com/api/auth/session</code>，整段全选复制到原订单。“没有 accessToken”先登录；“Session 不完整”重新全选，不要经聊天软件转发。</p>
+<p>账号本来已有 Plus 时，这款商品不能覆盖；别反复提交。</p>
 <h2 id="verification">状态三：出现安全验证、重交或转人工</h2>
-<p>如果订单页出现安全验证，按照该页面提示完成并留在原订单等结果。商家说明正常开通通常一两分钟；失败时会退回让你重交 Session，自动流程走不通则转人工核对。此时钱已付，先保留订单号等人工处理，不要再另下单。卡住较久可点商家页面“客服”，只提供订单号和可公开的错误提示，不私发 Session。</p>
+<p>如果订单页出现安全验证，按照该页面提示完成并留在原订单等结果。商家说明正常开通通常一两分钟；失败时会退回让你重交 Session，自动流程走不通则转人工核对。此时钱已付，先保留订单号等人工处理，不要再另下单。</p>
+<p>卡住较久可点商家页面“客服”，只提供订单号和可公开的错误提示，不私发 Session。</p>
 <h2 id="verify">状态四：订单显示完成，ChatGPT 仍是 Free</h2>
-<ol class="steps-list"><li>回到 ChatGPT，刷新并核对当前登录账号的邮箱和登录方式。用 Apple 隐藏邮箱、Google 与普通邮箱登录可能进到不同账号。</li><li>退出后重新登录原账号，再从个人头像进入设置查看套餐。不要只看浏览器旧标签页的缓存显示。</li><li>若订单完成但同一账号仍无 Plus，带订单号和账号套餐页<strong>不含凭据</strong>的截图联系 ProdClub 客服，说明“订单已完成但原账号仍显示 Free”。</li></ol>
+<ol class="steps-list"><li><strong>确认账号与登录方式</strong><p>回到 ChatGPT，刷新并核对当前登录账号的邮箱和登录方式。用 Apple 隐藏邮箱、Google 与普通邮箱登录可能进到不同账号。</p></li><li><strong>重新登录查看套餐</strong><p>退出后重新登录原账号，再从个人头像进入设置查看套餐。不要只看浏览器旧标签页的缓存显示。</p></li><li><strong>联系商家核查权益</strong><p>若订单完成但同一账号仍无 Plus，带订单号和账号套餐页<strong>不含凭据</strong>的截图联系 ProdClub 客服，说明“订单已完成但原账号仍显示 Free”。</p></li></ol>
 <h2 id="refund">不想继续：什么情况下点退款</h2>
-<p>ProdClub 帮助页写明：<strong>付款后尚未开通</strong>、订单页出现“申请退款”按钮时，在该订单页提交申请；申请后不能撤回，款项原路退回，一般 24 小时内到账。没有按钮时，带订单号联系客服。付款之前可以在订单页取消；已经扫支付宝付款后不要按“取消订单”，应等付款确认或走退款流程。开通后的问题属于售后，当前 Plus 商品写有 30 天售后，按购买时商品条款和订单号联系商家。</p>
+<p>ProdClub 帮助页写明：<strong>付款后尚未开通</strong>、订单页出现“申请退款”按钮时，在该订单页提交申请；申请后不能撤回，款项原路退回，一般 24 小时内到账。没有按钮时，带订单号联系客服。</p>
+<p>付款之前可以在订单页取消；已经扫支付宝付款后不要按“取消订单”，应等付款确认或走退款流程。开通后的问题属于售后，当前 Plus 商品写有 30 天售后，按购买时商品条款和订单号联系商家。</p>
 <div class="callout"><strong>保存这些就够了：</strong>订单号、下单邮箱、付款时间和金额、订单页公开状态。不要把 Session、密码、验证码或完整支付卡资料放进客服消息。</div>
 </div>
-  <aside class="next-guides"><h2>继续操作</h2><p><a href="alipay-apple-gift-card.html">支付宝买 Apple 礼品卡</a> · <a href="apple-gift-card.html">兑换与 iPhone 内购</a> · <a href="foreign-card.html">海外银行卡</a> · <a href="virtual-card.html">虚拟卡</a> · <a href="alipay-plus.html">代充服务</a> · <a href="./#guide-map">代充售后教程</a></p></aside><section class="sources" aria-label="依据与相关教程"><h2>本页依据与相关教程</h2><p><a href="alipay-plus.html">本站完整下单流程</a>、<a href="session.html">本站 Session 教程</a>；订单、退款和售后步骤已在本页按商家说明整理。政策与价格可能变化；本页核对于 2026 年 10 月 25 日。</p></section>
+  <aside class="next-guides"><h2>继续操作</h2><p><a href="alipay-apple-gift-card.html">支付宝买 Apple 礼品卡</a> · <a href="apple-gift-card.html">兑换与 iPhone 内购</a> · <a href="foreign-card.html">海外银行卡</a> · <a href="virtual-card.html">虚拟卡</a> · <a href="alipay-plus.html">三方代充</a> · <a href="./#guide-map">代充售后教程</a></p></aside><section class="sources" aria-label="依据与相关教程"><h2>本页依据与相关教程</h2><p><a href="alipay-plus.html">本站完整下单流程</a>、<a href="session.html">本站 Session 教程</a>；订单、退款和售后步骤已在本页按商家说明整理。政策与价格可能变化；本页核对于 2026 年 10 月 25 日。</p></section>
 </main>
 <footer class="footer"><div class="wrap"><p>独立教程站；ProdClub 为第三方代充服务，与 OpenAI 无隶属或授权关系。请勿在公开页面提交账号凭据。</p><p><a href="./">首页</a> · <a href="about.html">项目说明</a> · <a href="https://github.com/laoma528/GPTplusSub">GitHub</a></p></div></footer>
 </body></html>

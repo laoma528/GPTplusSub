@@ -56,6 +56,23 @@
 .next-guides p,.sources p{font-size:14px;color:#555;line-height:1.75}
 .sources{padding-top:24px;border-top:1px solid var(--line)}
 .sources p{margin-bottom:0}
+/* Separate step titles, actions and reminders without crowding mobile screens. */
+.steps-list>li>strong:first-child{display:block;margin-bottom:10px;font-size:17px}
+.steps-list>li>p{margin:0 0 12px}
+.steps-list>li>p:last-child{margin-bottom:0}
+.guide .sources p+p{margin-top:12px}
+.guide .quick-recharge{margin:24px 0;padding:16px 0;border-block:1px solid var(--line)}
+.guide-home h1{font-size:clamp(28px,3vw,36px);line-height:1.5;letter-spacing:-.02em}
+.keep-together{display:inline-block}
+.guide-home .title-routes{display:block;margin-top:10px;font-size:22px;line-height:1.65;font-weight:500}
+.guide .purchase-summary{margin:24px 0}
+@media(max-width:767px){
+  .steps-list>li{padding-left:46px!important}
+  .steps-list>li::before{width:30px;height:30px}
+  .guide-home h1{font-size:27px;line-height:1.5}
+  .guide-home .title-routes{font-size:19px}
+  .quick-recharge>a{display:block;margin-top:6px}
+}
 @media(max-width:767px){
   .guide{padding-top:38px;padding-bottom:70px}
   .guide h1{font-size:30px;line-height:1.28}
