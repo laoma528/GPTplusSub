@@ -29,6 +29,8 @@
 .guide ol,.guide ul{margin:0 0 22px;padding-left:25px}
 .guide li{padding-left:5px;margin-bottom:10px}
 .guide strong{color:var(--ink)}
+/* Emphasize text links in instructions, summaries, tables and source notes. */
+.guide :is(p,li,td,th,.callout) a:not(.button){font-weight:700}
 .guide code,.guide kbd{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace;font-size:.91em;overflow-wrap:anywhere;background:#f2f2f2;padding:2px 5px;border-radius:4px}
 .guide kbd{border:1px solid #d1d1d1;box-shadow:0 1px 0 #ccc}
 .answer{padding:24px 28px;background:#f7f7f7;border-left:3px solid #181818;margin:0 0 30px}
