@@ -204,6 +204,12 @@ ProdClub 的开通、Session、订单和售后说明已经整理进本站的[下
 
 请勿在 Issue 里提交密码、验证码、Cookie、Session、API Key 或订单个人信息。
 
+## 教程访问入口
+
+- [主站：gpt.528.im](https://gpt.528.im/)
+- [Google Sites 订阅教程](https://sites.google.com/view/chatgpt-subscribe-528/)
+- [Notion 订阅教程](https://zhuiju.notion.site/020ad48567d9835c81e2810144817452)
+
 <!-- content-updated:start -->
 内容更新：2026年11月1日
 <!-- content-updated:end -->
