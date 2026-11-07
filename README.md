@@ -15,3 +15,7 @@ HTML、本地CSS、原生JavaScript；无构建依赖。品牌站使用 Cloudfla
 Cloudflare 构建命令为 `python scripts/check-public-files.py --revision HEAD && python scripts/check-referral-links.py`，检查失败时停止发布；非生产分支暂不自动部署。正式网址采用 Cloudflare 的无扩展名路径，本地预览仍可通过对应 `.html` 文件访问。
 
 内容日期取自真实 Git 正文变更。当前未接入访问统计；当前总价、周期、续费与客服信息请通过原商品及订单页面查看。
+
+<!-- content-updated:start -->
+内容更新：2026年11月7日
+<!-- content-updated:end -->
