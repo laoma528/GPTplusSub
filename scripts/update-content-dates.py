@@ -21,7 +21,7 @@ import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE = "https://gpt.528.im"
+SITE = "https://prodclub.vip"
 SHANGHAI = timezone(timedelta(hours=8))
 SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 README_START = "<!-- content-updated:start -->"
@@ -249,10 +249,14 @@ def sitemap_pages(text: str) -> list[tuple[str, str]]:
             f"{parsed.scheme}://{parsed.netloc}" != SITE or parsed.query or parsed.fragment
             or not path.startswith("/") or "\\" in path or "//" in path
             or any(part in {".", ".."} for part in path.split("/"))
-            or (path != "/" and not path.endswith(".html"))
+            or (path != "/" and (path.endswith("/") or Path(path).suffix not in {"", ".html"}))
         ):
             raise DateError("The sitemap contains an unsupported or non-canonical URL.")
-        relative = "docs/" + (path.lstrip("/") or "index.html")
+        # Cloudflare Pages serves HTML at clean URLs while files stay on disk.
+        article_path = path.lstrip("/") or "index.html"
+        if not article_path.endswith(".html"):
+            article_path += ".html"
+        relative = "docs/" + article_path
         resolved = (ROOT / relative).resolve()
         if not resolved.is_relative_to((ROOT / "docs").resolve()) or not resolved.is_file():
             raise DateError("The sitemap points outside an existing local article.")

@@ -2,7 +2,7 @@ name: Public content check
 
 on:
   push:
-    branches: [main]
+    branches: [codex/prodclub-vip]
   pull_request:
   workflow_dispatch:
 
