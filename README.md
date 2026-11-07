@@ -211,5 +211,5 @@ ProdClub 的开通、Session、订单和售后说明已经整理进本站的[下
 - [Notion 订阅教程](https://zhuiju.notion.site/020ad48567d9835c81e2810144817452)
 
 <!-- content-updated:start -->
-内容更新：2026年11月1日
+内容更新：2026年11月7日
 <!-- content-updated:end -->
