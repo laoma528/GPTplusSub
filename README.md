@@ -12,11 +12,22 @@ HTML、本地CSS、原生JavaScript；无构建依赖。品牌站使用 Cloudfla
 
 首页只保留一组四项核心特点，与页头、页尾采用相同的宽容器；流程、指南和问答等正文区域收窄居中，标题继续居中。官方渠道说明并入账号特点，订单售后由开通流程和帮助页面承接。
 
-价格、周期、续费及独立客服渠道待确定；当前不接入第三方统计，仅分发本地点击事件。
+价格、周期、续费及独立客服渠道待确定。品牌站使用 GA4 免费版单独统计访问、来源和购买按钮点击，与原教程站区分；`service_click` 只是导流点击，不代表付款或订单。统计会使用第一方 Cookie 区分访客和会话，仅在 `prodclub.vip` 正式域启用，本地及部署预览不启用。
+
+`docs/assets/analytics.js` 接收本地点击事件；发送规范页面地址前去掉查询参数与片段，不发送 Session、密码、邮箱或订单资料。相关说明见隐私页。
 
 Cloudflare 构建命令为 `python scripts/check-public-files.py --revision HEAD && python scripts/check-referral-links.py`，检查失败时停止发布；非生产分支暂不自动部署。正式网址采用 Cloudflare 的无扩展名路径，本地预览仍可通过对应 `.html` 文件访问。
 
-内容日期取自真实 Git 正文变更。当前未接入访问统计；当前总价、周期、续费与客服信息请通过原商品及订单页面查看。
+IndexNow 使用为品牌站新生成的独立公开验证密钥，不复用旧站密钥。先发布验证文件，确认其 URL 可直接访问，再校验和提交 sitemap 中的规范网址；以下是操作命令，不代表已经完成提交：
+
+```powershell
+python scripts/seo-geo/submit-indexnow.py --sitemap --dry-run
+python scripts/seo-geo/submit-indexnow.py --sitemap
+```
+
+以后可将变更网址作为参数单独提交。新增或轮换密钥时，同步验证文件的文件名与内容、脚本中的 `KEY_FILE`、`.public-files` 和 `.gitignore` 的逐项规则；发布后再提交。IndexNow 返回 200 或 202 只表示请求已收到，不保证收录。
+
+内容日期取自真实 Git 正文变更。当前总价、周期、续费与客服信息请通过原商品及订单页面查看。
 
 <!-- content-updated:start -->
 内容更新：2026年11月8日

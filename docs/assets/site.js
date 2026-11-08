@@ -1,4 +1,4 @@
-/* Local interactions. No credentials, external requests or analytics cookies. */
+/* Local UI interactions. Emits prodclub:service-click for analytics.js (GA4). */
 const menu = document.querySelector('.menu');
 const navigation = document.querySelector('#navigation');
 function closeMenu() {
