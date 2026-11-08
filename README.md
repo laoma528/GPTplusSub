@@ -2,6 +2,8 @@
 
 本分支 codex/prodclub-vip 独立维护静态品牌站，禁止整体合并至 main。
 
+正式官网：[prodclub.vip](https://prodclub.vip/)。向本分支推送已检查的变更后，由 Cloudflare Pages 自动更新；`main` 继续维护原教程站。
+
 本地预览：`python -m http.server 8765 --bind 127.0.0.1 --directory docs`
 
 HTML、本地CSS、原生JavaScript；无构建依赖。品牌站使用 Cloudflare Pages 自动发布，生产分支为 `codex/prodclub-vip`，输出目录为 `docs/`。购买与交付入口：https://prodclub.xyz/r/W3EF6W?src=gptsub
