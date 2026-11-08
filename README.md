@@ -19,5 +19,5 @@ Cloudflare 构建命令为 `python scripts/check-public-files.py --revision HEAD
 内容日期取自真实 Git 正文变更。当前未接入访问统计；当前总价、周期、续费与客服信息请通过原商品及订单页面查看。
 
 <!-- content-updated:start -->
-内容更新：2026年11月7日
+内容更新：2026年11月8日
 <!-- content-updated:end -->
