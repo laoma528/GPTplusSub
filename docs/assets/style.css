@@ -149,7 +149,7 @@ nav{display:flex;align-items:center;gap:27px}nav a{font-size:13px;text-decoratio
 .footer-brand .footer-disclaimer,.footer-brand .footer-legal{font-family:inherit;font-size:12px;font-weight:400;line-height:1.85;color:var(--muted)}
 .footer-brand .footer-disclaimer{max-width:360px;margin:0}
 .footer-legal{padding:0 24px 32px;overflow-wrap:anywhere}
-.footer-legal p{margin:0 0 6px}.footer-legal .footer-company{margin-top:14px;font-weight:inherit}.footer-legal address{font-style:normal;max-width:780px}
+.footer-legal p{margin:0}.footer-legal .footer-company{margin-top:0;font-weight:inherit}.footer-legal address{font-style:normal;max-width:780px}
 @media(max-width:760px){.footer-legal{padding:0 6px 28px}.footer-brand .footer-disclaimer{max-width:none}}
 
-.footer-brand .footer-legal{padding:0;margin-top:18px}.footer-brand .footer-legal address{max-width:360px}
+.footer-brand .footer-legal{padding:0;margin-top:6px;font-size:11px;line-height:1.8}.footer-brand .footer-legal address{max-width:360px}
