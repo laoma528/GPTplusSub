@@ -6,7 +6,7 @@
 
 本地预览：`python -m http.server 8765 --bind 127.0.0.1 --directory docs`
 
-HTML、本地CSS、原生JavaScript；无构建依赖。品牌站使用 Cloudflare Pages 自动发布，生产分支为 `codex/prodclub-vip`，输出目录为 `docs/`。购买与交付入口：https://prodclub.xyz/r/W3EF6W?src=gptsub
+HTML、本地CSS、原生JavaScript；无构建依赖。品牌站使用 Cloudflare Pages 自动发布，生产分支为 `codex/prodclub-vip`，输出目录为 `docs/`。购买与交付入口：https://prodclub.ai/r/NJJU47?src=pcvip
 
 视觉布局基于 [SaaS Design DevTools 模板](https://github.com/hannah-wright/saas-landing-page-template) 的 HTML 版适配，保留居中首屏与黑白灰配色；按用户反馈采用开放排版，去除整页外框、嵌套卡片及仿窗口流程界面。完整 MIT 许可保留在 `docs/assets/template-license.txt`。未引入模板的运行时 Tailwind CDN、远程字体和脚本切换子页机制；所有内容页保持独立静态网址。流程区用静态三步骤说明，不模拟订单或后台状态。
 
