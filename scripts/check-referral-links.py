@@ -13,7 +13,7 @@ download_article_urls = {
     "https://prodclub.xyz/api/v1/downloads/codex-windows",
     "https://prodclub.xyz/api/v1/downloads/codex-windows?arch=arm64",
 }
-url_pattern = re.compile(r"(?:https?:)?//(?:www\.)?prodclub\.(?:xyz|ai|vip)[^\s\"'<>)]*", re.I)
+url_pattern = re.compile(r"(?:https?:)?//(?:www\.)?prodclub\.(?:xyz|ai)(?![a-z0-9.-])[^\s\"'<>)]*", re.I)
 public_files = [root / "README.md", *sorted((root / "docs").glob("*.html"))]
 public_files += sorted((root / "docs" / "assets").glob("*.js"))
 violations = []
