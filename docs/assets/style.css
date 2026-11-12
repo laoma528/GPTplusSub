@@ -143,3 +143,10 @@ nav{display:flex;align-items:center;gap:27px}nav a{font-size:13px;text-decoratio
  .footer-column:nth-child(3){justify-self:center}
  .footer-column:last-child{justify-self:end}
 }
+
+/* Platform identity and company details */
+.footer-brand .footer-tagline{font-size:13px;line-height:1.8;margin:16px 0 10px;color:var(--ink)}
+.footer-brand .footer-disclaimer{font-size:12px;line-height:1.85;max-width:360px;margin:0;color:var(--muted)}
+.footer-legal{padding:0 24px 32px;color:var(--muted);font-size:11px;line-height:1.8;overflow-wrap:anywhere}
+.footer-legal p{margin:0 0 6px}.footer-legal .footer-company{margin-top:14px;font-weight:600}.footer-legal address{font-style:normal;max-width:780px}
+@media(max-width:760px){.footer-legal{padding:0 6px 28px}.footer-brand .footer-disclaimer{max-width:none}}
