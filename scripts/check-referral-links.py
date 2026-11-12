@@ -6,14 +6,14 @@ import re
 import sys
 
 root = Path(__file__).resolve().parents[1]
-allowed = "https://prodclub.xyz/r/W3EF6W?src=gptsub"
+allowed = "https://prodclub.ai/r/NJJU47?src=gptsub"
 # This download article needs the exact download endpoints and source citation.
 download_article_urls = {
     "https://prodclub.xyz/download/codex",
     "https://prodclub.xyz/api/v1/downloads/codex-windows",
     "https://prodclub.xyz/api/v1/downloads/codex-windows?arch=arm64",
 }
-url_pattern = re.compile(r"(?:https?:)?//(?:www\.)?prodclub\.xyz[^\s\"'<>)]*", re.I)
+url_pattern = re.compile(r"(?:https?:)?//(?:www\.)?prodclub\.(?:xyz|ai|vip)[^\s\"'<>)]*", re.I)
 public_files = [root / "README.md", *sorted((root / "docs").glob("*.html"))]
 public_files += sorted((root / "docs" / "assets").glob("*.js"))
 violations = []

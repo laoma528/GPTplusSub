@@ -112,7 +112,7 @@
 
 已有能正常登录的 **ChatGPT 免费版账号**，可以按下面的流程了解并使用 ProdClub 本人账号代充服务。
 
-- **服务入口**：[前往 ProdClub](https://prodclub.xyz/r/W3EF6W?src=gptsub)。
+- **服务入口**：[前往 ProdClub](https://prodclub.ai/r/NJJU47?src=gptsub)。
 - **订阅周期**：选择 Plus 1 个月商品，价格以商品页为准。
 - **付款前核对**：以订单页实际应付金额为准。
 
@@ -126,7 +126,7 @@
 
 2. **打开指定入口**
 
-   进入 [ProdClub](https://prodclub.xyz/r/W3EF6W?src=gptsub)，在“资源大厅”点“ChatGPT Plus”，确认商品为“1 个月 / 自有账号开通”。不要误选 Pro 或接码商品。
+   进入 [ProdClub](https://prodclub.ai/r/NJJU47?src=gptsub)，在“资源大厅”点“ChatGPT Plus”，确认商品为“1 个月 / 自有账号开通”。不要误选 Pro 或接码商品。
 
 3. **提交订单**
 
@@ -198,7 +198,7 @@
 
 ProdClub 的开通、Session、订单和售后说明已经整理进本站的[下单教程](https://gpt.528.im/alipay-plus.html)、[Session 教程](https://gpt.528.im/session.html)和[订单售后教程](https://gpt.528.im/order-help.html)。
 
-需要进入代充网站时，只使用[本站指定入口](https://prodclub.xyz/r/W3EF6W?src=gptsub)。
+需要进入代充网站时，只使用[本站指定入口](https://prodclub.ai/r/NJJU47?src=gptsub)。
 
 本仓库的 [GitHub Pages 教程站](https://gpt.528.im/) 从 main 分支的 docs 目录发布。
 
