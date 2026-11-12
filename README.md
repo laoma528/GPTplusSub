@@ -30,5 +30,5 @@ python scripts/seo-geo/submit-indexnow.py --sitemap
 内容日期取自真实 Git 正文变更。当前总价、周期、续费与客服信息请通过原商品及订单页面查看。
 
 <!-- content-updated:start -->
-内容更新：2026年11月8日
+内容更新：2026年11月13日
 <!-- content-updated:end -->
