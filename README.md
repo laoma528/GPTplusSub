@@ -114,7 +114,7 @@
 
 - **服务入口**：[前往 ProdClub](https://prodclub.ai/r/NJJU47?src=gptsub)。
 - **订阅周期**：选择 Plus 1 个月商品，价格以商品页为准。
-- **ProdClub优惠码：**NJJU47（填写后有优惠）。
+- **ProdClub优惠码**：NJJU47（填写后有优惠）。
 - **付款前核对**：以订单页实际应付金额为准。
 
 ### 7 步完成一单
