@@ -112,7 +112,7 @@
 
 ProdClub 提供支付宝代充，Plus 权益进入自己的 ChatGPT 个人账号，不换号、不共享。本文介绍的是 **Plus 1 个月商品**：核对账号和商品后下单付款，在原订单提交一次 Session，系统自动开通，再回原账号核验。账号需为免费版，已有 Plus 不能覆盖或提前续费；金额以订单页为准。
 
-- **服务入口**：[前往 ProdClub](https://prodclub.ai/r/NJJU47?src=gptsub)。
+- **代充值入口**：[前往 ProdClub](https://prodclub.ai/r/NJJU47?src=gptsub)。
 - **订阅周期**：选择 Plus 1 个月商品，价格以商品页为准。
 - **ProdClub优惠码**：NJJU47（填写后有优惠）。
 - **付款前核对**：以订单页实际应付金额为准。
@@ -206,6 +206,9 @@ ProdClub 的开通、Session、订单和售后说明已经整理进本站的[下
 本仓库的 [GitHub Pages 教程站](https://gpt.528.im/) 从 main 分支的 docs 目录发布。
 
 请勿在 Issue 里提交密码、验证码、Cookie、Session、API Key 或订单个人信息。
+
+- **ProdClub充值站：**[prodclub.ai](https://prodclub.ai/r/NJJU47?src=pcgithub)
+- **ProdClub品牌站：**[prodclub.vip](https://prodclub.vip/)
 
 ## 教程访问入口
 

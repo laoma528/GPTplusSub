@@ -7,6 +7,7 @@ import sys
 
 root = Path(__file__).resolve().parents[1]
 allowed = "https://prodclub.ai/r/NJJU47?src=gptsub"
+brand_github_footer = "- **ProdClub充值站：**[prodclub.ai](https://prodclub.ai/r/NJJU47?src=pcgithub)"
 # This download article needs the exact download endpoints and source citation.
 download_article_urls = {
     "https://prodclub.xyz/download/codex",
@@ -44,6 +45,8 @@ for path in public_files:
         ServiceLinkParser(path).feed(content)
     for number, line in enumerate(content.splitlines(), 1):
         for url in url_pattern.findall(line):
+            if path == root / "README.md" and line == brand_github_footer:
+                continue
             if path == root / "docs" / "codex-windows.html" and url in download_article_urls:
                 continue
             if url.rstrip("。，；、") != allowed:
