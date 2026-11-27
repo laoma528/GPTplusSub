@@ -1,6 +1,6 @@
 # 2027年最新 ChatGPT Plus/Pro会员国内订阅充值教程：Apple 礼品卡与第三方代充
 
-中国大陆、香港、澳门都不在 [ChatGPT 官方支持地区名单](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries) 里。官网不收大陆发行的银行卡，也没有面向大陆用户的支付宝、微信直付。人在国内想给自己的账号开 Plus 或 Pro，卡点不在订阅本身，在付款这一步。
+中国大陆、香港、澳门都不在 [ChatGPT 官方支持地区名单](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries) 里。官网不收大陆发行的银行卡，国内银行发的 Visa、Mastercard 双币卡也不行，支付宝、微信同样付不了。人在国内想给自己的账号开 Plus 或 Pro，卡点不在订阅本身，在付款这一步。
 
 这篇教程把网上流传的付款办法按最新情况逐条过了一遍，分两种写法：
 
