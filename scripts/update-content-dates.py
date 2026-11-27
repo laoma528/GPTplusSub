@@ -285,9 +285,20 @@ def sitemap_with_dates(text: str, dates: dict[str, datetime]) -> str:
     return re.sub(r"<url\b[^>]*>.*?</url>", replace, text, flags=re.S)
 
 
-def prepare_updates() -> tuple[dict[Path, str], dict[str, str]]:
+def prepare_readme_update() -> tuple[dict[Path, str], dict[str, str]]:
+    path = ROOT / "README.md"
+    current = read_text(path)
+    stamp = modification_time("README.md", current)
+    candidate = readme_with_date(current, stamp)
+    updates = {path: candidate} if candidate != current else {}
+    return updates, {"README.md": format_date(stamp)[0]}
+
+
+def prepare_updates(readme_only: bool = False) -> tuple[dict[Path, str], dict[str, str]]:
     if git("rev-parse", "--is-shallow-repository").strip() == "true":
         raise DateError("Fetch full Git history before deriving content dates.")
+    if readme_only:
+        return prepare_readme_update()
     sitemap_path = ROOT / "docs/sitemap.xml"
     sitemap = read_text(sitemap_path)
     pages = sitemap_pages(sitemap)
@@ -307,13 +318,9 @@ def prepare_updates() -> tuple[dict[Path, str], dict[str, str]]:
             updates[path] = candidate
         dates[url] = stamp
         report[relative] = format_date(stamp)[0]
-    readme_path = ROOT / "README.md"
-    readme = read_text(readme_path)
-    stamp = modification_time("README.md", readme)
-    candidate = readme_with_date(readme, stamp)
-    if candidate != readme:
-        updates[readme_path] = candidate
-    report["README.md"] = format_date(stamp)[0]
+    readme_updates, readme_report = prepare_readme_update()
+    updates.update(readme_updates)
+    report.update(readme_report)
     candidate = sitemap_with_dates(sitemap, dates)
     if candidate != sitemap:
         updates[sitemap_path] = candidate
@@ -325,10 +332,11 @@ def main() -> int:
     mode = parser.add_mutually_exclusive_group(required=True)
     mode.add_argument("--check", action="store_true", help="Report drift without writing")
     mode.add_argument("--write", action="store_true", help="Synchronize generated labels and sitemap")
+    parser.add_argument("--readme-only", action="store_true", help="Only process the README content date")
     parser.add_argument("--json", action="store_true", help="Print dates and changed paths as JSON")
     args = parser.parse_args()
     try:
-        updates, dates = prepare_updates()
+        updates, dates = prepare_updates(readme_only=args.readme_only)
         if args.write:
             for path, content in updates.items():
                 path.write_bytes(content.encode("utf-8"))

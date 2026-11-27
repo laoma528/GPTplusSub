@@ -46,3 +46,37 @@ jobs:
           PY
       - name: Check service links
         run: python scripts/check-referral-links.py
+
+  readme-date:
+    name: Sync README content date
+    needs: public-content
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Publish generated README date
+        shell: bash
+        run: |
+          latest=$(git ls-remote --exit-code origin refs/heads/main)
+          if [[ "${latest%%$'\t'*}" != "$GITHUB_SHA" ]]; then
+            echo 'A newer main revision is available. Skipping this run.'
+            exit 0
+          fi
+          python scripts/update-content-dates.py --write --readme-only
+          python scripts/update-content-dates.py --check --readme-only
+          if git diff --quiet -- README.md; then
+            exit 0
+          fi
+          git add -- README.md
+          git config core.hooksPath .githooks
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Sync README content update date'
+          git push origin HEAD:refs/heads/main

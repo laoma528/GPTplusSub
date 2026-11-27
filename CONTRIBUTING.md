@@ -33,7 +33,9 @@ Google、Bing 和 IndexNow 的站点验证文件，以及 GA4 测量标识，是
 
 ## 真实内容更新日期
 
-修改并提交正文后，运行：
+README 正文发布到 `main` 后，GitHub Actions 取最近一次正文提交的北京时间。页脚日期有出入时，自动提交修正。
+
+修改并提交教程主站正文后，运行：
 
 ```sh
 python scripts/update-content-dates.py --write
