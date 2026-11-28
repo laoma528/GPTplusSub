@@ -89,7 +89,7 @@ OpenAI 的支付说明里也没把这两个钱包列为付款方式。结算页�
 
 ProdClub 提供支付宝代充，Plus 权益进入自己的 ChatGPT 个人账号，不换号、不共享，不需要提供账号密码。本文介绍的是 **Plus 1 个月商品**：核对账号和商品后下单付款，在原订单提交一次 Session，系统自动开通，再回原账号核验。账号需为免费版，已有 Plus 不能覆盖或提前续费；金额以订单页为准。
 
-- **代充值入口**：[前往 ProdClub](https://prodclub.ai/r/NJJU47?src=gptsub)。
+- **代充值入口**：[前往 ProdClub 品牌官网](https://prodclub.vip/)。
 - **订阅周期**：选择 Plus 1 个月商品，价格以商品页为准。
 - **ProdClub优惠码**：NJJU47（填写后有优惠）。
 - **付款前核对**：以订单页实际应付金额为准。
@@ -106,7 +106,7 @@ ProdClub 提供支付宝代充，Plus 权益进入自己的 ChatGPT 个人账号
 
 2. **打开指定入口**
 
-   进入 [ProdClub](https://prodclub.ai/r/NJJU47?src=gptsub)，在“资源大厅”点“ChatGPT Plus”，确认商品为“1 个月 / 自有账号开通”。不要误选 Pro 或接码商品。
+   打开 [ProdClub 品牌官网](https://prodclub.vip/)，从官网进入充值站，再在“资源大厅”点“ChatGPT Plus”，确认商品为“1 个月 / 自有账号开通”。不要误选 Pro 或接码商品。
 
 3. **提交订单**
 
