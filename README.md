@@ -2,7 +2,7 @@
 
 <p>
   <a href="https://deepwiki.com/laoma528/GPTplusSub"><img src="https://img.shields.io/badge/Ask-DeepWiki-1F6FEB?style=flat-square" alt="Ask DeepWiki" height="24"></a>
-  <a href="https://hits.sh/github.com/laoma528/GPTplusSub/"><img src="https://hits.sh/github.com/laoma528/GPTplusSub.svg?style=flat-square&amp;label=Visits&amp;color=0A66C2&amp;extraCount=80000" alt="Visits" height="24"></a>
+  <a href="https://hits.sh/github.com/laoma528/GPTplusSub/"><img src="https://hits.sh/github.com/laoma528/GPTplusSub.svg?extraCount=80000" alt="Hits" height="24"></a>
 </p>
 
 中国大陆、香港、澳门都不在 [ChatGPT 官方支持地区名单](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries) 里。官网不收大陆发行的银行卡，国内银行发的 Visa、Mastercard 双币卡也不行，支付宝、微信同样付不了。人在国内想给自己的账号开 Plus 或 Pro，卡点不在订阅本身，在付款这一步。
