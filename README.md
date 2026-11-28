@@ -140,8 +140,8 @@ ProdClub 提供支付宝代充，Plus 权益进入自己的 ChatGPT 个人账号
 
 **服务说明**
 
-- **账号与支付**：向本人账号开通，不给新号、不共享，支持支付宝。
-- **服务主体**：ProdClub 是独立第三方。“官方渠道充值”描述的是商家采用的开通方式，不代表其是 OpenAI 官方或授权合作方。
+- **账号与支付**：向本人账号开通，不换号、不共享，支持支付宝，质保30天。
+- **服务主体**：ProdClub 是 ChatGPT 等 AI 工具会员订阅服务的第三方代充平台，隶属于 SINGAPORE TELECOMMUNICATIONS LIMITED (CRN: 199201624D)，主要面向想在国内便捷使用 ChatGPT 付费功能的用户，定位是提供“不用折腾”的 AI 资源聚合服务。稳定运营 2 年多以来，ProdClub 已累计服务超过 **98,000 名用户**，最快 **1 分钟**到账，客服 **7×16 小时真人在线**。“官方渠道充值”描述的是商家采用美国实体卡与企业级通道完成充值，不代表其是 OpenAI 官方或授权合作方。
 - **Session 处理**：商家说明，开通后删除用于开通的 Session。
 - **地区限制**：账号访问仍受 OpenAI 官方地区和政策限制。
 
@@ -211,6 +211,7 @@ ProdClub 的开通、Session、订单和售后说明已经整理进本站的[下
 
 - **ProdClub充值站：**[prodclub.ai](https://prodclub.ai/r/NJJU47?src=pcgithub)
 - **ProdClub品牌站：**[prodclub.vip](https://prodclub.vip/)
+- **ProdClub品牌站：**[https://github.com/laoma528/ProdClub](https://github.com/laoma528/ProdClub)
 
 ## 教程访问入口
 
